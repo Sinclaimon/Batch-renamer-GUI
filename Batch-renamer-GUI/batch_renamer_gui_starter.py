@@ -14,9 +14,10 @@ class BatchRenamerWindow(QMainWindow, Ui_MainWindow):
         super().__init__()
         super(Ui_MainWindow).__init__()
         self.setupUi(self)
-        # Connect button to function
-        self.browseBtn.clicked.connect(self.get_filepath)
-        # Connect your new "Run" button to self.run_renamer
+        # Connect the browse button to get_filepath function
+        self.BrowseButton.clicked.connect(self.get_filepath)
+        # Connect the Run button to the run_renamer function
+        self.RunButton.clicked.connect(self.run_renamer)
 
         # Instance the "back end"
         self.batch_renamer = batch_renamer_lib.BatchRenamer()
@@ -72,4 +73,3 @@ if __name__ == '__main__':
     app = QApplication(sys.argv)
     window = BatchRenamerWindow()
     sys.exit(app.exec())
- 
