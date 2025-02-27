@@ -1208,3 +1208,518 @@ tree_.ma: [WinError 123] The filename, directory name, or volume label syntax is
 2025-02-27 20:07:54,765 - BatchRenamer Logger 1.0.0 - WARNING - Suffix already exists in base name
 2025-02-27 20:07:54,766 - BatchRenamer Logger 1.0.0 - INFO - Renamed file from E:/repos/Batch-renamer-GUI/testing_files\T__tree_color_C.png to E:/repos/Batch-renamer-GUI/testing_files\T__tree_color_C.png
 2025-02-27 20:07:54,766 - BatchRenamer Logger 1.0.0 - INFO - Updating file list
+2025-02-27 20:17:11,258 - BatchRenamer Logger 1.0.0 - INFO - Logger Initiated
+2025-02-27 20:17:13,882 - BatchRenamer Logger 1.0.0 - INFO - Browse button clicked
+2025-02-27 20:17:16,379 - BatchRenamer Logger 1.0.0 - INFO - Selected filepath: E:/repos/Batch-renamer-GUI/testing_files
+2025-02-27 20:17:16,379 - BatchRenamer Logger 1.0.0 - INFO - Setting filepath in FilePathEdit
+2025-02-27 20:17:16,379 - BatchRenamer Logger 1.0.0 - INFO - Updating file list
+2025-02-27 20:17:52,218 - BatchRenamer Logger 1.0.0 - INFO - Running batch renamer with the following parameters:
+2025-02-27 20:17:52,218 - BatchRenamer Logger 1.0.0 - INFO - Filepath: E:/repos/Batch-renamer-GUI/testing_files
+2025-02-27 20:17:52,218 - BatchRenamer Logger 1.0.0 - INFO - Copy files: False
+2025-02-27 20:17:52,218 - BatchRenamer Logger 1.0.0 - INFO - Filetypes: png
+2025-02-27 20:17:52,218 - BatchRenamer Logger 1.0.0 - INFO - Strings to find: ['texture']
+2025-02-27 20:17:52,218 - BatchRenamer Logger 1.0.0 - INFO - String to replace: 
+2025-02-27 20:17:52,218 - BatchRenamer Logger 1.0.0 - INFO - Prefix: T_
+2025-02-27 20:17:52,218 - BatchRenamer Logger 1.0.0 - INFO - Suffix: _C
+2025-02-27 20:17:52,218 - BatchRenamer Logger 1.0.0 - INFO - Files with extension: png in folder: E:/repos/Batch-renamer-GUI/testing_files
+2025-02-27 20:17:52,219 - BatchRenamer Logger 1.0.0 - INFO - Added a matching file: texture_iron_diffuse.png
+2025-02-27 20:17:52,219 - BatchRenamer Logger 1.0.0 - INFO - Added a matching file: texture_tree_color.png
+2025-02-27 20:17:52,219 - BatchRenamer Logger 1.0.0 - INFO - Added a matching file: tex_stone_diffuse.png
+2025-02-27 20:17:52,219 - BatchRenamer Logger 1.0.0 - INFO - Getting renamed file path for: texture_iron_diffuse.png
+2025-02-27 20:17:52,219 - BatchRenamer Logger 1.0.0 - INFO - number of strings to replace: 1
+2025-02-27 20:17:52,219 - BatchRenamer Logger 1.0.0 - INFO - Renamed file from E:/repos/Batch-renamer-GUI/testing_files\texture_iron_diffuse.png to E:/repos/Batch-renamer-GUI/testing_files\T__iron_diffuse_C.png
+2025-02-27 20:17:52,219 - BatchRenamer Logger 1.0.0 - INFO - Getting renamed file path for: texture_tree_color.png
+2025-02-27 20:17:52,219 - BatchRenamer Logger 1.0.0 - INFO - number of strings to replace: 1
+2025-02-27 20:17:52,220 - BatchRenamer Logger 1.0.0 - INFO - Renamed file from E:/repos/Batch-renamer-GUI/testing_files\texture_tree_color.png to E:/repos/Batch-renamer-GUI/testing_files\T__tree_color_C.png
+2025-02-27 20:17:52,220 - BatchRenamer Logger 1.0.0 - INFO - Getting renamed file path for: tex_stone_diffuse.png
+2025-02-27 20:17:52,220 - BatchRenamer Logger 1.0.0 - INFO - number of strings to replace: 1
+2025-02-27 20:17:52,220 - BatchRenamer Logger 1.0.0 - INFO - Renamed file from E:/repos/Batch-renamer-GUI/testing_files\tex_stone_diffuse.png to E:/repos/Batch-renamer-GUI/testing_files\T_tex_stone_diffuse_C.png
+2025-02-27 20:17:52,220 - BatchRenamer Logger 1.0.0 - INFO - Updating file list
+2025-02-27 20:18:11,386 - BatchRenamer Logger 1.0.0 - INFO - Running batch renamer with the following parameters:
+2025-02-27 20:18:11,386 - BatchRenamer Logger 1.0.0 - INFO - Filepath: E:/repos/Batch-renamer-GUI/testing_files
+2025-02-27 20:18:11,386 - BatchRenamer Logger 1.0.0 - INFO - Copy files: False
+2025-02-27 20:18:11,386 - BatchRenamer Logger 1.0.0 - INFO - Filetypes: png
+2025-02-27 20:18:11,386 - BatchRenamer Logger 1.0.0 - INFO - Strings to find: ['_texture']
+2025-02-27 20:18:11,386 - BatchRenamer Logger 1.0.0 - INFO - String to replace: 
+2025-02-27 20:18:11,386 - BatchRenamer Logger 1.0.0 - INFO - Prefix: T_
+2025-02-27 20:18:11,386 - BatchRenamer Logger 1.0.0 - INFO - Suffix: _C
+2025-02-27 20:18:11,386 - BatchRenamer Logger 1.0.0 - INFO - Files with extension: png in folder: E:/repos/Batch-renamer-GUI/testing_files
+2025-02-27 20:18:11,387 - BatchRenamer Logger 1.0.0 - INFO - Added a matching file: T_tex_stone_diffuse_C.png
+2025-02-27 20:18:11,387 - BatchRenamer Logger 1.0.0 - INFO - Added a matching file: T__iron_diffuse_C.png
+2025-02-27 20:18:11,387 - BatchRenamer Logger 1.0.0 - INFO - Added a matching file: T__tree_color_C.png
+2025-02-27 20:18:11,387 - BatchRenamer Logger 1.0.0 - INFO - Getting renamed file path for: T_tex_stone_diffuse_C.png
+2025-02-27 20:18:11,387 - BatchRenamer Logger 1.0.0 - INFO - number of strings to replace: 1
+2025-02-27 20:18:11,387 - BatchRenamer Logger 1.0.0 - WARNING - Prefix already exists in base name
+2025-02-27 20:18:11,387 - BatchRenamer Logger 1.0.0 - WARNING - Suffix already exists in base name
+2025-02-27 20:18:11,387 - BatchRenamer Logger 1.0.0 - INFO - Renamed file from E:/repos/Batch-renamer-GUI/testing_files\T_tex_stone_diffuse_C.png to E:/repos/Batch-renamer-GUI/testing_files\T_tex_stone_diffuse_C.png
+2025-02-27 20:18:11,387 - BatchRenamer Logger 1.0.0 - INFO - Getting renamed file path for: T__iron_diffuse_C.png
+2025-02-27 20:18:11,387 - BatchRenamer Logger 1.0.0 - INFO - number of strings to replace: 1
+2025-02-27 20:18:11,387 - BatchRenamer Logger 1.0.0 - WARNING - Prefix already exists in base name
+2025-02-27 20:18:11,387 - BatchRenamer Logger 1.0.0 - WARNING - Suffix already exists in base name
+2025-02-27 20:18:11,387 - BatchRenamer Logger 1.0.0 - INFO - Renamed file from E:/repos/Batch-renamer-GUI/testing_files\T__iron_diffuse_C.png to E:/repos/Batch-renamer-GUI/testing_files\T__iron_diffuse_C.png
+2025-02-27 20:18:11,388 - BatchRenamer Logger 1.0.0 - INFO - Getting renamed file path for: T__tree_color_C.png
+2025-02-27 20:18:11,388 - BatchRenamer Logger 1.0.0 - INFO - number of strings to replace: 1
+2025-02-27 20:18:11,388 - BatchRenamer Logger 1.0.0 - WARNING - Prefix already exists in base name
+2025-02-27 20:18:11,388 - BatchRenamer Logger 1.0.0 - WARNING - Suffix already exists in base name
+2025-02-27 20:18:11,388 - BatchRenamer Logger 1.0.0 - INFO - Renamed file from E:/repos/Batch-renamer-GUI/testing_files\T__tree_color_C.png to E:/repos/Batch-renamer-GUI/testing_files\T__tree_color_C.png
+2025-02-27 20:18:11,388 - BatchRenamer Logger 1.0.0 - INFO - Updating file list
+2025-02-27 20:18:14,746 - BatchRenamer Logger 1.0.0 - INFO - Running batch renamer with the following parameters:
+2025-02-27 20:18:14,746 - BatchRenamer Logger 1.0.0 - INFO - Filepath: E:/repos/Batch-renamer-GUI/testing_files
+2025-02-27 20:18:14,746 - BatchRenamer Logger 1.0.0 - INFO - Copy files: False
+2025-02-27 20:18:14,746 - BatchRenamer Logger 1.0.0 - INFO - Filetypes: png
+2025-02-27 20:18:14,746 - BatchRenamer Logger 1.0.0 - INFO - Strings to find: ['_']
+2025-02-27 20:18:14,746 - BatchRenamer Logger 1.0.0 - INFO - String to replace: 
+2025-02-27 20:18:14,746 - BatchRenamer Logger 1.0.0 - INFO - Prefix: T_
+2025-02-27 20:18:14,746 - BatchRenamer Logger 1.0.0 - INFO - Suffix: _C
+2025-02-27 20:18:14,746 - BatchRenamer Logger 1.0.0 - INFO - Files with extension: png in folder: E:/repos/Batch-renamer-GUI/testing_files
+2025-02-27 20:18:14,747 - BatchRenamer Logger 1.0.0 - INFO - Added a matching file: T_tex_stone_diffuse_C.png
+2025-02-27 20:18:14,747 - BatchRenamer Logger 1.0.0 - INFO - Added a matching file: T__iron_diffuse_C.png
+2025-02-27 20:18:14,747 - BatchRenamer Logger 1.0.0 - INFO - Added a matching file: T__tree_color_C.png
+2025-02-27 20:18:14,747 - BatchRenamer Logger 1.0.0 - INFO - Getting renamed file path for: T_tex_stone_diffuse_C.png
+2025-02-27 20:18:14,747 - BatchRenamer Logger 1.0.0 - INFO - number of strings to replace: 1
+2025-02-27 20:18:14,747 - BatchRenamer Logger 1.0.0 - INFO - Renamed file from E:/repos/Batch-renamer-GUI/testing_files\T_tex_stone_diffuse_C.png to E:/repos/Batch-renamer-GUI/testing_files\T_TtexstonediffuseC_C.png
+2025-02-27 20:18:14,747 - BatchRenamer Logger 1.0.0 - INFO - Getting renamed file path for: T__iron_diffuse_C.png
+2025-02-27 20:18:14,747 - BatchRenamer Logger 1.0.0 - INFO - number of strings to replace: 1
+2025-02-27 20:18:14,747 - BatchRenamer Logger 1.0.0 - INFO - Renamed file from E:/repos/Batch-renamer-GUI/testing_files\T__iron_diffuse_C.png to E:/repos/Batch-renamer-GUI/testing_files\T_TirondiffuseC_C.png
+2025-02-27 20:18:14,748 - BatchRenamer Logger 1.0.0 - INFO - Getting renamed file path for: T__tree_color_C.png
+2025-02-27 20:18:14,748 - BatchRenamer Logger 1.0.0 - INFO - number of strings to replace: 1
+2025-02-27 20:18:14,748 - BatchRenamer Logger 1.0.0 - INFO - Renamed file from E:/repos/Batch-renamer-GUI/testing_files\T__tree_color_C.png to E:/repos/Batch-renamer-GUI/testing_files\T_TtreecolorC_C.png
+2025-02-27 20:18:14,748 - BatchRenamer Logger 1.0.0 - INFO - Updating file list
+2025-02-27 20:18:19,466 - BatchRenamer Logger 1.0.0 - INFO - Running batch renamer with the following parameters:
+2025-02-27 20:18:19,466 - BatchRenamer Logger 1.0.0 - INFO - Filepath: E:/repos/Batch-renamer-GUI/testing_files
+2025-02-27 20:18:19,466 - BatchRenamer Logger 1.0.0 - INFO - Copy files: False
+2025-02-27 20:18:19,466 - BatchRenamer Logger 1.0.0 - INFO - Filetypes: png
+2025-02-27 20:18:19,466 - BatchRenamer Logger 1.0.0 - INFO - Strings to find: ['T']
+2025-02-27 20:18:19,466 - BatchRenamer Logger 1.0.0 - INFO - String to replace: 
+2025-02-27 20:18:19,466 - BatchRenamer Logger 1.0.0 - INFO - Prefix: T_
+2025-02-27 20:18:19,466 - BatchRenamer Logger 1.0.0 - INFO - Suffix: _C
+2025-02-27 20:18:19,466 - BatchRenamer Logger 1.0.0 - INFO - Files with extension: png in folder: E:/repos/Batch-renamer-GUI/testing_files
+2025-02-27 20:18:19,467 - BatchRenamer Logger 1.0.0 - INFO - Added a matching file: T_TirondiffuseC_C.png
+2025-02-27 20:18:19,467 - BatchRenamer Logger 1.0.0 - INFO - Added a matching file: T_TtexstonediffuseC_C.png
+2025-02-27 20:18:19,467 - BatchRenamer Logger 1.0.0 - INFO - Added a matching file: T_TtreecolorC_C.png
+2025-02-27 20:18:19,467 - BatchRenamer Logger 1.0.0 - INFO - Getting renamed file path for: T_TirondiffuseC_C.png
+2025-02-27 20:18:19,467 - BatchRenamer Logger 1.0.0 - INFO - number of strings to replace: 1
+2025-02-27 20:18:19,467 - BatchRenamer Logger 1.0.0 - WARNING - Suffix already exists in base name
+2025-02-27 20:18:19,467 - BatchRenamer Logger 1.0.0 - INFO - Renamed file from E:/repos/Batch-renamer-GUI/testing_files\T_TirondiffuseC_C.png to E:/repos/Batch-renamer-GUI/testing_files\T__irondiffuseC_C.png
+2025-02-27 20:18:19,467 - BatchRenamer Logger 1.0.0 - INFO - Getting renamed file path for: T_TtexstonediffuseC_C.png
+2025-02-27 20:18:19,467 - BatchRenamer Logger 1.0.0 - INFO - number of strings to replace: 1
+2025-02-27 20:18:19,467 - BatchRenamer Logger 1.0.0 - WARNING - Suffix already exists in base name
+2025-02-27 20:18:19,468 - BatchRenamer Logger 1.0.0 - INFO - Renamed file from E:/repos/Batch-renamer-GUI/testing_files\T_TtexstonediffuseC_C.png to E:/repos/Batch-renamer-GUI/testing_files\T__texstonediffuseC_C.png
+2025-02-27 20:18:19,468 - BatchRenamer Logger 1.0.0 - INFO - Getting renamed file path for: T_TtreecolorC_C.png
+2025-02-27 20:18:19,468 - BatchRenamer Logger 1.0.0 - INFO - number of strings to replace: 1
+2025-02-27 20:18:19,468 - BatchRenamer Logger 1.0.0 - WARNING - Suffix already exists in base name
+2025-02-27 20:18:19,468 - BatchRenamer Logger 1.0.0 - INFO - Renamed file from E:/repos/Batch-renamer-GUI/testing_files\T_TtreecolorC_C.png to E:/repos/Batch-renamer-GUI/testing_files\T__treecolorC_C.png
+2025-02-27 20:18:19,468 - BatchRenamer Logger 1.0.0 - INFO - Updating file list
+2025-02-27 20:18:38,054 - BatchRenamer Logger 1.0.0 - INFO - Logger Initiated
+2025-02-27 20:18:40,058 - BatchRenamer Logger 1.0.0 - INFO - Browse button clicked
+2025-02-27 20:18:42,395 - BatchRenamer Logger 1.0.0 - INFO - Selected filepath: E:/repos/Batch-renamer-GUI/testing_files
+2025-02-27 20:18:42,396 - BatchRenamer Logger 1.0.0 - INFO - Setting filepath in FilePathEdit
+2025-02-27 20:18:42,396 - BatchRenamer Logger 1.0.0 - INFO - Updating file list
+2025-02-27 20:18:46,858 - BatchRenamer Logger 1.0.0 - INFO - Running batch renamer with the following parameters:
+2025-02-27 20:18:46,858 - BatchRenamer Logger 1.0.0 - INFO - Filepath: E:/repos/Batch-renamer-GUI/testing_files
+2025-02-27 20:18:46,858 - BatchRenamer Logger 1.0.0 - INFO - Copy files: True
+2025-02-27 20:18:46,858 - BatchRenamer Logger 1.0.0 - INFO - Filetypes: 
+2025-02-27 20:18:46,858 - BatchRenamer Logger 1.0.0 - INFO - Strings to find: ['']
+2025-02-27 20:18:46,858 - BatchRenamer Logger 1.0.0 - INFO - String to replace: 
+2025-02-27 20:18:46,858 - BatchRenamer Logger 1.0.0 - INFO - Prefix: 
+2025-02-27 20:18:46,858 - BatchRenamer Logger 1.0.0 - INFO - Suffix: 
+2025-02-27 20:18:46,858 - BatchRenamer Logger 1.0.0 - INFO - Files with extension:  in folder: E:/repos/Batch-renamer-GUI/testing_files
+2025-02-27 20:18:46,859 - BatchRenamer Logger 1.0.0 - WARNING - No files found with extension: 
+2025-02-27 20:18:46,859 - BatchRenamer Logger 1.0.0 - INFO - Updating file list
+2025-02-27 20:18:50,890 - BatchRenamer Logger 1.0.0 - INFO - Running batch renamer with the following parameters:
+2025-02-27 20:18:50,890 - BatchRenamer Logger 1.0.0 - INFO - Filepath: E:/repos/Batch-renamer-GUI/testing_files
+2025-02-27 20:18:50,890 - BatchRenamer Logger 1.0.0 - INFO - Copy files: False
+2025-02-27 20:18:50,890 - BatchRenamer Logger 1.0.0 - INFO - Filetypes: txt
+2025-02-27 20:18:50,890 - BatchRenamer Logger 1.0.0 - INFO - Strings to find: ['']
+2025-02-27 20:18:50,890 - BatchRenamer Logger 1.0.0 - INFO - String to replace: 
+2025-02-27 20:18:50,890 - BatchRenamer Logger 1.0.0 - INFO - Prefix: W
+2025-02-27 20:18:50,890 - BatchRenamer Logger 1.0.0 - INFO - Suffix: 
+2025-02-27 20:18:50,890 - BatchRenamer Logger 1.0.0 - INFO - Files with extension: txt in folder: E:/repos/Batch-renamer-GUI/testing_files
+2025-02-27 20:18:50,891 - BatchRenamer Logger 1.0.0 - INFO - Added a matching file: hello_world.txt
+2025-02-27 20:18:50,891 - BatchRenamer Logger 1.0.0 - INFO - Added a matching file: lorem_ipsum.txt
+2025-02-27 20:18:50,891 - BatchRenamer Logger 1.0.0 - INFO - Getting renamed file path for: hello_world.txt
+2025-02-27 20:18:50,891 - BatchRenamer Logger 1.0.0 - INFO - number of strings to replace: 1
+2025-02-27 20:18:50,891 - BatchRenamer Logger 1.0.0 - INFO - Renamed file from E:/repos/Batch-renamer-GUI/testing_files\hello_world.txt to E:/repos/Batch-renamer-GUI/testing_files\Whello_world.txt
+2025-02-27 20:18:50,891 - BatchRenamer Logger 1.0.0 - INFO - Getting renamed file path for: lorem_ipsum.txt
+2025-02-27 20:18:50,891 - BatchRenamer Logger 1.0.0 - INFO - number of strings to replace: 1
+2025-02-27 20:18:50,892 - BatchRenamer Logger 1.0.0 - INFO - Renamed file from E:/repos/Batch-renamer-GUI/testing_files\lorem_ipsum.txt to E:/repos/Batch-renamer-GUI/testing_files\Wlorem_ipsum.txt
+2025-02-27 20:18:50,892 - BatchRenamer Logger 1.0.0 - INFO - Updating file list
+2025-02-27 20:18:55,538 - BatchRenamer Logger 1.0.0 - INFO - Running batch renamer with the following parameters:
+2025-02-27 20:18:55,538 - BatchRenamer Logger 1.0.0 - INFO - Filepath: E:/repos/Batch-renamer-GUI/testing_files
+2025-02-27 20:18:55,538 - BatchRenamer Logger 1.0.0 - INFO - Copy files: True
+2025-02-27 20:18:55,538 - BatchRenamer Logger 1.0.0 - INFO - Filetypes: txt
+2025-02-27 20:18:55,538 - BatchRenamer Logger 1.0.0 - INFO - Strings to find: ['']
+2025-02-27 20:18:55,538 - BatchRenamer Logger 1.0.0 - INFO - String to replace: 
+2025-02-27 20:18:55,538 - BatchRenamer Logger 1.0.0 - INFO - Prefix: W
+2025-02-27 20:18:55,538 - BatchRenamer Logger 1.0.0 - INFO - Suffix: 
+2025-02-27 20:18:55,538 - BatchRenamer Logger 1.0.0 - INFO - Files with extension: txt in folder: E:/repos/Batch-renamer-GUI/testing_files
+2025-02-27 20:18:55,539 - BatchRenamer Logger 1.0.0 - INFO - Added a matching file: Whello_world.txt
+2025-02-27 20:18:55,539 - BatchRenamer Logger 1.0.0 - INFO - Added a matching file: Wlorem_ipsum.txt
+2025-02-27 20:18:55,539 - BatchRenamer Logger 1.0.0 - INFO - Getting renamed file path for: Whello_world.txt
+2025-02-27 20:18:55,539 - BatchRenamer Logger 1.0.0 - INFO - number of strings to replace: 1
+2025-02-27 20:18:55,539 - BatchRenamer Logger 1.0.0 - WARNING - Prefix already exists in base name
+2025-02-27 20:18:55,539 - BatchRenamer Logger 1.0.0 - ERROR - Failed to rename/copy file to E:/repos/Batch-renamer-GUI/testing_files\Whello_world.txt: 'E:/repos/Batch-renamer-GUI/testing_files\\Whello_world.txt' and 'E:/repos/Batch-renamer-GUI/testing_files\\Whello_world.txt' are the same file
+2025-02-27 20:18:55,539 - BatchRenamer Logger 1.0.0 - INFO - Getting renamed file path for: Wlorem_ipsum.txt
+2025-02-27 20:18:55,539 - BatchRenamer Logger 1.0.0 - INFO - number of strings to replace: 1
+2025-02-27 20:18:55,539 - BatchRenamer Logger 1.0.0 - WARNING - Prefix already exists in base name
+2025-02-27 20:18:55,539 - BatchRenamer Logger 1.0.0 - ERROR - Failed to rename/copy file to E:/repos/Batch-renamer-GUI/testing_files\Wlorem_ipsum.txt: 'E:/repos/Batch-renamer-GUI/testing_files\\Wlorem_ipsum.txt' and 'E:/repos/Batch-renamer-GUI/testing_files\\Wlorem_ipsum.txt' are the same file
+2025-02-27 20:18:55,540 - BatchRenamer Logger 1.0.0 - INFO - Updating file list
+2025-02-27 20:18:57,058 - BatchRenamer Logger 1.0.0 - INFO - Running batch renamer with the following parameters:
+2025-02-27 20:18:57,058 - BatchRenamer Logger 1.0.0 - INFO - Filepath: E:/repos/Batch-renamer-GUI/testing_files
+2025-02-27 20:18:57,058 - BatchRenamer Logger 1.0.0 - INFO - Copy files: True
+2025-02-27 20:18:57,058 - BatchRenamer Logger 1.0.0 - INFO - Filetypes: txt
+2025-02-27 20:18:57,058 - BatchRenamer Logger 1.0.0 - INFO - Strings to find: ['']
+2025-02-27 20:18:57,058 - BatchRenamer Logger 1.0.0 - INFO - String to replace: 
+2025-02-27 20:18:57,058 - BatchRenamer Logger 1.0.0 - INFO - Prefix: W
+2025-02-27 20:18:57,058 - BatchRenamer Logger 1.0.0 - INFO - Suffix: 
+2025-02-27 20:18:57,058 - BatchRenamer Logger 1.0.0 - INFO - Files with extension: txt in folder: E:/repos/Batch-renamer-GUI/testing_files
+2025-02-27 20:18:57,058 - BatchRenamer Logger 1.0.0 - INFO - Added a matching file: Whello_world.txt
+2025-02-27 20:18:57,059 - BatchRenamer Logger 1.0.0 - INFO - Added a matching file: Wlorem_ipsum.txt
+2025-02-27 20:18:57,059 - BatchRenamer Logger 1.0.0 - INFO - Getting renamed file path for: Whello_world.txt
+2025-02-27 20:18:57,059 - BatchRenamer Logger 1.0.0 - INFO - number of strings to replace: 1
+2025-02-27 20:18:57,059 - BatchRenamer Logger 1.0.0 - WARNING - Prefix already exists in base name
+2025-02-27 20:18:57,059 - BatchRenamer Logger 1.0.0 - ERROR - Failed to rename/copy file to E:/repos/Batch-renamer-GUI/testing_files\Whello_world.txt: 'E:/repos/Batch-renamer-GUI/testing_files\\Whello_world.txt' and 'E:/repos/Batch-renamer-GUI/testing_files\\Whello_world.txt' are the same file
+2025-02-27 20:18:57,059 - BatchRenamer Logger 1.0.0 - INFO - Getting renamed file path for: Wlorem_ipsum.txt
+2025-02-27 20:18:57,059 - BatchRenamer Logger 1.0.0 - INFO - number of strings to replace: 1
+2025-02-27 20:18:57,059 - BatchRenamer Logger 1.0.0 - WARNING - Prefix already exists in base name
+2025-02-27 20:18:57,059 - BatchRenamer Logger 1.0.0 - ERROR - Failed to rename/copy file to E:/repos/Batch-renamer-GUI/testing_files\Wlorem_ipsum.txt: 'E:/repos/Batch-renamer-GUI/testing_files\\Wlorem_ipsum.txt' and 'E:/repos/Batch-renamer-GUI/testing_files\\Wlorem_ipsum.txt' are the same file
+2025-02-27 20:18:57,059 - BatchRenamer Logger 1.0.0 - INFO - Updating file list
+2025-02-27 20:18:57,282 - BatchRenamer Logger 1.0.0 - INFO - Running batch renamer with the following parameters:
+2025-02-27 20:18:57,282 - BatchRenamer Logger 1.0.0 - INFO - Filepath: E:/repos/Batch-renamer-GUI/testing_files
+2025-02-27 20:18:57,282 - BatchRenamer Logger 1.0.0 - INFO - Copy files: True
+2025-02-27 20:18:57,282 - BatchRenamer Logger 1.0.0 - INFO - Filetypes: txt
+2025-02-27 20:18:57,282 - BatchRenamer Logger 1.0.0 - INFO - Strings to find: ['']
+2025-02-27 20:18:57,282 - BatchRenamer Logger 1.0.0 - INFO - String to replace: 
+2025-02-27 20:18:57,282 - BatchRenamer Logger 1.0.0 - INFO - Prefix: W
+2025-02-27 20:18:57,282 - BatchRenamer Logger 1.0.0 - INFO - Suffix: 
+2025-02-27 20:18:57,282 - BatchRenamer Logger 1.0.0 - INFO - Files with extension: txt in folder: E:/repos/Batch-renamer-GUI/testing_files
+2025-02-27 20:18:57,282 - BatchRenamer Logger 1.0.0 - INFO - Added a matching file: Whello_world.txt
+2025-02-27 20:18:57,283 - BatchRenamer Logger 1.0.0 - INFO - Added a matching file: Wlorem_ipsum.txt
+2025-02-27 20:18:57,283 - BatchRenamer Logger 1.0.0 - INFO - Getting renamed file path for: Whello_world.txt
+2025-02-27 20:18:57,283 - BatchRenamer Logger 1.0.0 - INFO - number of strings to replace: 1
+2025-02-27 20:18:57,283 - BatchRenamer Logger 1.0.0 - WARNING - Prefix already exists in base name
+2025-02-27 20:18:57,283 - BatchRenamer Logger 1.0.0 - ERROR - Failed to rename/copy file to E:/repos/Batch-renamer-GUI/testing_files\Whello_world.txt: 'E:/repos/Batch-renamer-GUI/testing_files\\Whello_world.txt' and 'E:/repos/Batch-renamer-GUI/testing_files\\Whello_world.txt' are the same file
+2025-02-27 20:18:57,283 - BatchRenamer Logger 1.0.0 - INFO - Getting renamed file path for: Wlorem_ipsum.txt
+2025-02-27 20:18:57,283 - BatchRenamer Logger 1.0.0 - INFO - number of strings to replace: 1
+2025-02-27 20:18:57,283 - BatchRenamer Logger 1.0.0 - WARNING - Prefix already exists in base name
+2025-02-27 20:18:57,283 - BatchRenamer Logger 1.0.0 - ERROR - Failed to rename/copy file to E:/repos/Batch-renamer-GUI/testing_files\Wlorem_ipsum.txt: 'E:/repos/Batch-renamer-GUI/testing_files\\Wlorem_ipsum.txt' and 'E:/repos/Batch-renamer-GUI/testing_files\\Wlorem_ipsum.txt' are the same file
+2025-02-27 20:18:57,283 - BatchRenamer Logger 1.0.0 - INFO - Updating file list
+2025-02-27 20:18:57,418 - BatchRenamer Logger 1.0.0 - INFO - Running batch renamer with the following parameters:
+2025-02-27 20:18:57,418 - BatchRenamer Logger 1.0.0 - INFO - Filepath: E:/repos/Batch-renamer-GUI/testing_files
+2025-02-27 20:18:57,418 - BatchRenamer Logger 1.0.0 - INFO - Copy files: True
+2025-02-27 20:18:57,418 - BatchRenamer Logger 1.0.0 - INFO - Filetypes: txt
+2025-02-27 20:18:57,418 - BatchRenamer Logger 1.0.0 - INFO - Strings to find: ['']
+2025-02-27 20:18:57,418 - BatchRenamer Logger 1.0.0 - INFO - String to replace: 
+2025-02-27 20:18:57,418 - BatchRenamer Logger 1.0.0 - INFO - Prefix: W
+2025-02-27 20:18:57,418 - BatchRenamer Logger 1.0.0 - INFO - Suffix: 
+2025-02-27 20:18:57,418 - BatchRenamer Logger 1.0.0 - INFO - Files with extension: txt in folder: E:/repos/Batch-renamer-GUI/testing_files
+2025-02-27 20:18:57,419 - BatchRenamer Logger 1.0.0 - INFO - Added a matching file: Whello_world.txt
+2025-02-27 20:18:57,419 - BatchRenamer Logger 1.0.0 - INFO - Added a matching file: Wlorem_ipsum.txt
+2025-02-27 20:18:57,419 - BatchRenamer Logger 1.0.0 - INFO - Getting renamed file path for: Whello_world.txt
+2025-02-27 20:18:57,419 - BatchRenamer Logger 1.0.0 - INFO - number of strings to replace: 1
+2025-02-27 20:18:57,419 - BatchRenamer Logger 1.0.0 - WARNING - Prefix already exists in base name
+2025-02-27 20:18:57,419 - BatchRenamer Logger 1.0.0 - ERROR - Failed to rename/copy file to E:/repos/Batch-renamer-GUI/testing_files\Whello_world.txt: 'E:/repos/Batch-renamer-GUI/testing_files\\Whello_world.txt' and 'E:/repos/Batch-renamer-GUI/testing_files\\Whello_world.txt' are the same file
+2025-02-27 20:18:57,419 - BatchRenamer Logger 1.0.0 - INFO - Getting renamed file path for: Wlorem_ipsum.txt
+2025-02-27 20:18:57,419 - BatchRenamer Logger 1.0.0 - INFO - number of strings to replace: 1
+2025-02-27 20:18:57,419 - BatchRenamer Logger 1.0.0 - WARNING - Prefix already exists in base name
+2025-02-27 20:18:57,419 - BatchRenamer Logger 1.0.0 - ERROR - Failed to rename/copy file to E:/repos/Batch-renamer-GUI/testing_files\Wlorem_ipsum.txt: 'E:/repos/Batch-renamer-GUI/testing_files\\Wlorem_ipsum.txt' and 'E:/repos/Batch-renamer-GUI/testing_files\\Wlorem_ipsum.txt' are the same file
+2025-02-27 20:18:57,419 - BatchRenamer Logger 1.0.0 - INFO - Updating file list
+2025-02-27 20:19:01,034 - BatchRenamer Logger 1.0.0 - INFO - Running batch renamer with the following parameters:
+2025-02-27 20:19:01,034 - BatchRenamer Logger 1.0.0 - INFO - Filepath: E:/repos/Batch-renamer-GUI/testing_files
+2025-02-27 20:19:01,034 - BatchRenamer Logger 1.0.0 - INFO - Copy files: True
+2025-02-27 20:19:01,034 - BatchRenamer Logger 1.0.0 - INFO - Filetypes: txt
+2025-02-27 20:19:01,034 - BatchRenamer Logger 1.0.0 - INFO - Strings to find: ['']
+2025-02-27 20:19:01,034 - BatchRenamer Logger 1.0.0 - INFO - String to replace: 
+2025-02-27 20:19:01,034 - BatchRenamer Logger 1.0.0 - INFO - Prefix: WW
+2025-02-27 20:19:01,034 - BatchRenamer Logger 1.0.0 - INFO - Suffix: 
+2025-02-27 20:19:01,034 - BatchRenamer Logger 1.0.0 - INFO - Files with extension: txt in folder: E:/repos/Batch-renamer-GUI/testing_files
+2025-02-27 20:19:01,035 - BatchRenamer Logger 1.0.0 - INFO - Added a matching file: Whello_world.txt
+2025-02-27 20:19:01,035 - BatchRenamer Logger 1.0.0 - INFO - Added a matching file: Wlorem_ipsum.txt
+2025-02-27 20:19:01,035 - BatchRenamer Logger 1.0.0 - INFO - Getting renamed file path for: Whello_world.txt
+2025-02-27 20:19:01,035 - BatchRenamer Logger 1.0.0 - INFO - number of strings to replace: 1
+2025-02-27 20:19:01,036 - BatchRenamer Logger 1.0.0 - INFO - Copied file from E:/repos/Batch-renamer-GUI/testing_files\Whello_world.txt to E:/repos/Batch-renamer-GUI/testing_files\WWWhello_world.txt
+2025-02-27 20:19:01,036 - BatchRenamer Logger 1.0.0 - INFO - Getting renamed file path for: Wlorem_ipsum.txt
+2025-02-27 20:19:01,036 - BatchRenamer Logger 1.0.0 - INFO - number of strings to replace: 1
+2025-02-27 20:19:01,037 - BatchRenamer Logger 1.0.0 - INFO - Copied file from E:/repos/Batch-renamer-GUI/testing_files\Wlorem_ipsum.txt to E:/repos/Batch-renamer-GUI/testing_files\WWWlorem_ipsum.txt
+2025-02-27 20:19:01,037 - BatchRenamer Logger 1.0.0 - INFO - Updating file list
+2025-02-27 20:19:03,906 - BatchRenamer Logger 1.0.0 - INFO - Running batch renamer with the following parameters:
+2025-02-27 20:19:03,906 - BatchRenamer Logger 1.0.0 - INFO - Filepath: E:/repos/Batch-renamer-GUI/testing_files
+2025-02-27 20:19:03,906 - BatchRenamer Logger 1.0.0 - INFO - Copy files: False
+2025-02-27 20:19:03,906 - BatchRenamer Logger 1.0.0 - INFO - Filetypes: txt
+2025-02-27 20:19:03,906 - BatchRenamer Logger 1.0.0 - INFO - Strings to find: ['W']
+2025-02-27 20:19:03,906 - BatchRenamer Logger 1.0.0 - INFO - String to replace: 
+2025-02-27 20:19:03,906 - BatchRenamer Logger 1.0.0 - INFO - Prefix: WW
+2025-02-27 20:19:03,906 - BatchRenamer Logger 1.0.0 - INFO - Suffix: 
+2025-02-27 20:19:03,906 - BatchRenamer Logger 1.0.0 - INFO - Files with extension: txt in folder: E:/repos/Batch-renamer-GUI/testing_files
+2025-02-27 20:19:03,907 - BatchRenamer Logger 1.0.0 - INFO - Added a matching file: Whello_world.txt
+2025-02-27 20:19:03,907 - BatchRenamer Logger 1.0.0 - INFO - Added a matching file: Wlorem_ipsum.txt
+2025-02-27 20:19:03,907 - BatchRenamer Logger 1.0.0 - INFO - Added a matching file: WWWhello_world.txt
+2025-02-27 20:19:03,907 - BatchRenamer Logger 1.0.0 - INFO - Added a matching file: WWWlorem_ipsum.txt
+2025-02-27 20:19:03,907 - BatchRenamer Logger 1.0.0 - INFO - Getting renamed file path for: Whello_world.txt
+2025-02-27 20:19:03,907 - BatchRenamer Logger 1.0.0 - INFO - number of strings to replace: 1
+2025-02-27 20:19:03,907 - BatchRenamer Logger 1.0.0 - INFO - Renamed file from E:/repos/Batch-renamer-GUI/testing_files\Whello_world.txt to E:/repos/Batch-renamer-GUI/testing_files\WWhello_world.txt
+2025-02-27 20:19:03,907 - BatchRenamer Logger 1.0.0 - INFO - Getting renamed file path for: Wlorem_ipsum.txt
+2025-02-27 20:19:03,907 - BatchRenamer Logger 1.0.0 - INFO - number of strings to replace: 1
+2025-02-27 20:19:03,908 - BatchRenamer Logger 1.0.0 - INFO - Renamed file from E:/repos/Batch-renamer-GUI/testing_files\Wlorem_ipsum.txt to E:/repos/Batch-renamer-GUI/testing_files\WWlorem_ipsum.txt
+2025-02-27 20:19:03,908 - BatchRenamer Logger 1.0.0 - INFO - Getting renamed file path for: WWWhello_world.txt
+2025-02-27 20:19:03,908 - BatchRenamer Logger 1.0.0 - INFO - number of strings to replace: 1
+2025-02-27 20:19:03,908 - BatchRenamer Logger 1.0.0 - ERROR - Failed to rename/copy file to E:/repos/Batch-renamer-GUI/testing_files\WWhello_world.txt: [WinError 183] Cannot create a file when that file already exists: 'E:/repos/Batch-renamer-GUI/testing_files\\WWWhello_world.txt' -> 'E:/repos/Batch-renamer-GUI/testing_files\\WWhello_world.txt'
+2025-02-27 20:19:03,908 - BatchRenamer Logger 1.0.0 - INFO - Getting renamed file path for: WWWlorem_ipsum.txt
+2025-02-27 20:19:03,908 - BatchRenamer Logger 1.0.0 - INFO - number of strings to replace: 1
+2025-02-27 20:19:03,908 - BatchRenamer Logger 1.0.0 - ERROR - Failed to rename/copy file to E:/repos/Batch-renamer-GUI/testing_files\WWlorem_ipsum.txt: [WinError 183] Cannot create a file when that file already exists: 'E:/repos/Batch-renamer-GUI/testing_files\\WWWlorem_ipsum.txt' -> 'E:/repos/Batch-renamer-GUI/testing_files\\WWlorem_ipsum.txt'
+2025-02-27 20:19:03,908 - BatchRenamer Logger 1.0.0 - INFO - Updating file list
+2025-02-27 20:19:28,060 - BatchRenamer Logger 1.0.0 - INFO - Logger Initiated
+2025-02-27 20:19:36,170 - BatchRenamer Logger 1.0.0 - INFO - Browse button clicked
+2025-02-27 20:19:38,106 - BatchRenamer Logger 1.0.0 - INFO - Selected filepath: E:/repos/Batch-renamer-GUI/testing_files
+2025-02-27 20:19:38,106 - BatchRenamer Logger 1.0.0 - INFO - Setting filepath in FilePathEdit
+2025-02-27 20:19:38,106 - BatchRenamer Logger 1.0.0 - INFO - Updating file list
+2025-02-27 20:19:59,066 - BatchRenamer Logger 1.0.0 - INFO - Running batch renamer with the following parameters:
+2025-02-27 20:19:59,066 - BatchRenamer Logger 1.0.0 - INFO - Filepath: E:/repos/Batch-renamer-GUI/testing_files
+2025-02-27 20:19:59,066 - BatchRenamer Logger 1.0.0 - INFO - Copy files: False
+2025-02-27 20:19:59,066 - BatchRenamer Logger 1.0.0 - INFO - Filetypes: ma
+2025-02-27 20:19:59,066 - BatchRenamer Logger 1.0.0 - INFO - Strings to find: ['_file_01']
+2025-02-27 20:19:59,066 - BatchRenamer Logger 1.0.0 - INFO - String to replace: 
+2025-02-27 20:19:59,066 - BatchRenamer Logger 1.0.0 - INFO - Prefix: M_
+2025-02-27 20:19:59,066 - BatchRenamer Logger 1.0.0 - INFO - Suffix: 
+2025-02-27 20:19:59,067 - BatchRenamer Logger 1.0.0 - INFO - Files with extension: ma in folder: E:/repos/Batch-renamer-GUI/testing_files
+2025-02-27 20:19:59,067 - BatchRenamer Logger 1.0.0 - INFO - Added a matching file: iron_file_01.ma
+2025-02-27 20:19:59,067 - BatchRenamer Logger 1.0.0 - INFO - Added a matching file: stone_file_final_new_02b.ma
+2025-02-27 20:19:59,067 - BatchRenamer Logger 1.0.0 - INFO - Added a matching file: tree_file_01.ma
+2025-02-27 20:19:59,067 - BatchRenamer Logger 1.0.0 - INFO - Getting renamed file path for: iron_file_01.ma
+2025-02-27 20:19:59,067 - BatchRenamer Logger 1.0.0 - INFO - number of strings to replace: 1
+2025-02-27 20:19:59,067 - BatchRenamer Logger 1.0.0 - INFO - Renamed file from E:/repos/Batch-renamer-GUI/testing_files\iron_file_01.ma to E:/repos/Batch-renamer-GUI/testing_files\M_iron.ma
+2025-02-27 20:19:59,067 - BatchRenamer Logger 1.0.0 - INFO - Getting renamed file path for: stone_file_final_new_02b.ma
+2025-02-27 20:19:59,067 - BatchRenamer Logger 1.0.0 - INFO - number of strings to replace: 1
+2025-02-27 20:19:59,068 - BatchRenamer Logger 1.0.0 - INFO - Renamed file from E:/repos/Batch-renamer-GUI/testing_files\stone_file_final_new_02b.ma to E:/repos/Batch-renamer-GUI/testing_files\M_stone_file_final_new_02b.ma
+2025-02-27 20:19:59,068 - BatchRenamer Logger 1.0.0 - INFO - Getting renamed file path for: tree_file_01.ma
+2025-02-27 20:19:59,068 - BatchRenamer Logger 1.0.0 - INFO - number of strings to replace: 1
+2025-02-27 20:19:59,068 - BatchRenamer Logger 1.0.0 - INFO - Renamed file from E:/repos/Batch-renamer-GUI/testing_files\tree_file_01.ma to E:/repos/Batch-renamer-GUI/testing_files\M_tree.ma
+2025-02-27 20:19:59,068 - BatchRenamer Logger 1.0.0 - INFO - Updating file list
+2025-02-27 20:20:18,722 - BatchRenamer Logger 1.0.0 - INFO - Running batch renamer with the following parameters:
+2025-02-27 20:20:18,722 - BatchRenamer Logger 1.0.0 - INFO - Filepath: E:/repos/Batch-renamer-GUI/testing_files
+2025-02-27 20:20:18,722 - BatchRenamer Logger 1.0.0 - INFO - Copy files: False
+2025-02-27 20:20:18,722 - BatchRenamer Logger 1.0.0 - INFO - Filetypes: ma
+2025-02-27 20:20:18,722 - BatchRenamer Logger 1.0.0 - INFO - Strings to find: ['stone_file_final_new_02b']
+2025-02-27 20:20:18,722 - BatchRenamer Logger 1.0.0 - INFO - String to replace: 
+2025-02-27 20:20:18,722 - BatchRenamer Logger 1.0.0 - INFO - Prefix: M_
+2025-02-27 20:20:18,722 - BatchRenamer Logger 1.0.0 - INFO - Suffix: 
+2025-02-27 20:20:18,722 - BatchRenamer Logger 1.0.0 - INFO - Files with extension: ma in folder: E:/repos/Batch-renamer-GUI/testing_files
+2025-02-27 20:20:18,722 - BatchRenamer Logger 1.0.0 - INFO - Added a matching file: M_iron.ma
+2025-02-27 20:20:18,723 - BatchRenamer Logger 1.0.0 - INFO - Added a matching file: M_stone_file_final_new_02b.ma
+2025-02-27 20:20:18,723 - BatchRenamer Logger 1.0.0 - INFO - Added a matching file: M_tree.ma
+2025-02-27 20:20:18,723 - BatchRenamer Logger 1.0.0 - INFO - Getting renamed file path for: M_iron.ma
+2025-02-27 20:20:18,723 - BatchRenamer Logger 1.0.0 - INFO - number of strings to replace: 1
+2025-02-27 20:20:18,723 - BatchRenamer Logger 1.0.0 - WARNING - Prefix already exists in base name
+2025-02-27 20:20:18,723 - BatchRenamer Logger 1.0.0 - INFO - Renamed file from E:/repos/Batch-renamer-GUI/testing_files\M_iron.ma to E:/repos/Batch-renamer-GUI/testing_files\M_iron.ma
+2025-02-27 20:20:18,723 - BatchRenamer Logger 1.0.0 - INFO - Getting renamed file path for: M_stone_file_final_new_02b.ma
+2025-02-27 20:20:18,723 - BatchRenamer Logger 1.0.0 - INFO - number of strings to replace: 1
+2025-02-27 20:20:18,723 - BatchRenamer Logger 1.0.0 - WARNING - Prefix already exists in base name
+2025-02-27 20:20:18,724 - BatchRenamer Logger 1.0.0 - INFO - Renamed file from E:/repos/Batch-renamer-GUI/testing_files\M_stone_file_final_new_02b.ma to E:/repos/Batch-renamer-GUI/testing_files\M_.ma
+2025-02-27 20:20:18,724 - BatchRenamer Logger 1.0.0 - INFO - Getting renamed file path for: M_tree.ma
+2025-02-27 20:20:18,724 - BatchRenamer Logger 1.0.0 - INFO - number of strings to replace: 1
+2025-02-27 20:20:18,724 - BatchRenamer Logger 1.0.0 - WARNING - Prefix already exists in base name
+2025-02-27 20:20:18,724 - BatchRenamer Logger 1.0.0 - INFO - Renamed file from E:/repos/Batch-renamer-GUI/testing_files\M_tree.ma to E:/repos/Batch-renamer-GUI/testing_files\M_tree.ma
+2025-02-27 20:20:18,724 - BatchRenamer Logger 1.0.0 - INFO - Updating file list
+2025-02-27 20:20:44,904 - BatchRenamer Logger 1.0.0 - INFO - Logger Initiated
+2025-02-27 20:20:53,746 - BatchRenamer Logger 1.0.0 - INFO - Browse button clicked
+2025-02-27 20:20:55,754 - BatchRenamer Logger 1.0.0 - INFO - Selected filepath: E:/repos/Batch-renamer-GUI/testing_files
+2025-02-27 20:20:55,754 - BatchRenamer Logger 1.0.0 - INFO - Setting filepath in FilePathEdit
+2025-02-27 20:20:55,755 - BatchRenamer Logger 1.0.0 - INFO - Updating file list
+2025-02-27 20:21:25,562 - BatchRenamer Logger 1.0.0 - INFO - Running batch renamer with the following parameters:
+2025-02-27 20:21:25,562 - BatchRenamer Logger 1.0.0 - INFO - Filepath: E:/repos/Batch-renamer-GUI/testing_files
+2025-02-27 20:21:25,562 - BatchRenamer Logger 1.0.0 - INFO - Copy files: False
+2025-02-27 20:21:25,562 - BatchRenamer Logger 1.0.0 - INFO - Filetypes: ma
+2025-02-27 20:21:25,562 - BatchRenamer Logger 1.0.0 - INFO - Strings to find: ['_file_01']
+2025-02-27 20:21:25,562 - BatchRenamer Logger 1.0.0 - INFO - String to replace: 
+2025-02-27 20:21:25,562 - BatchRenamer Logger 1.0.0 - INFO - Prefix: M_
+2025-02-27 20:21:25,562 - BatchRenamer Logger 1.0.0 - INFO - Suffix: 
+2025-02-27 20:21:25,563 - BatchRenamer Logger 1.0.0 - INFO - Files with extension: ma in folder: E:/repos/Batch-renamer-GUI/testing_files
+2025-02-27 20:21:25,563 - BatchRenamer Logger 1.0.0 - INFO - Added a matching file: iron_file_01.ma
+2025-02-27 20:21:25,563 - BatchRenamer Logger 1.0.0 - INFO - Added a matching file: stone_file_final_new_02b.ma
+2025-02-27 20:21:25,563 - BatchRenamer Logger 1.0.0 - INFO - Added a matching file: tree_file_01.ma
+2025-02-27 20:21:25,563 - BatchRenamer Logger 1.0.0 - INFO - Getting renamed file path for: iron_file_01.ma
+2025-02-27 20:21:25,563 - BatchRenamer Logger 1.0.0 - INFO - number of strings to replace: 1
+2025-02-27 20:21:25,563 - BatchRenamer Logger 1.0.0 - INFO - Renamed file from E:/repos/Batch-renamer-GUI/testing_files\iron_file_01.ma to E:/repos/Batch-renamer-GUI/testing_files\M_iron.ma
+2025-02-27 20:21:25,563 - BatchRenamer Logger 1.0.0 - INFO - Getting renamed file path for: stone_file_final_new_02b.ma
+2025-02-27 20:21:25,564 - BatchRenamer Logger 1.0.0 - INFO - number of strings to replace: 1
+2025-02-27 20:21:25,564 - BatchRenamer Logger 1.0.0 - INFO - Renamed file from E:/repos/Batch-renamer-GUI/testing_files\stone_file_final_new_02b.ma to E:/repos/Batch-renamer-GUI/testing_files\M_stone_file_final_new_02b.ma
+2025-02-27 20:21:25,564 - BatchRenamer Logger 1.0.0 - INFO - Getting renamed file path for: tree_file_01.ma
+2025-02-27 20:21:25,564 - BatchRenamer Logger 1.0.0 - INFO - number of strings to replace: 1
+2025-02-27 20:21:25,565 - BatchRenamer Logger 1.0.0 - INFO - Renamed file from E:/repos/Batch-renamer-GUI/testing_files\tree_file_01.ma to E:/repos/Batch-renamer-GUI/testing_files\M_tree.ma
+2025-02-27 20:21:25,565 - BatchRenamer Logger 1.0.0 - INFO - Updating file list
+2025-02-27 20:21:40,666 - BatchRenamer Logger 1.0.0 - INFO - Running batch renamer with the following parameters:
+2025-02-27 20:21:40,666 - BatchRenamer Logger 1.0.0 - INFO - Filepath: E:/repos/Batch-renamer-GUI/testing_files
+2025-02-27 20:21:40,666 - BatchRenamer Logger 1.0.0 - INFO - Copy files: False
+2025-02-27 20:21:40,666 - BatchRenamer Logger 1.0.0 - INFO - Filetypes: ma
+2025-02-27 20:21:40,666 - BatchRenamer Logger 1.0.0 - INFO - Strings to find: ['_file_final_new_02b']
+2025-02-27 20:21:40,666 - BatchRenamer Logger 1.0.0 - INFO - String to replace: 
+2025-02-27 20:21:40,667 - BatchRenamer Logger 1.0.0 - INFO - Prefix: M_
+2025-02-27 20:21:40,667 - BatchRenamer Logger 1.0.0 - INFO - Suffix: 
+2025-02-27 20:21:40,667 - BatchRenamer Logger 1.0.0 - INFO - Files with extension: ma in folder: E:/repos/Batch-renamer-GUI/testing_files
+2025-02-27 20:21:40,667 - BatchRenamer Logger 1.0.0 - INFO - Added a matching file: M_iron.ma
+2025-02-27 20:21:40,667 - BatchRenamer Logger 1.0.0 - INFO - Added a matching file: M_stone_file_final_new_02b.ma
+2025-02-27 20:21:40,667 - BatchRenamer Logger 1.0.0 - INFO - Added a matching file: M_tree.ma
+2025-02-27 20:21:40,667 - BatchRenamer Logger 1.0.0 - INFO - Getting renamed file path for: M_iron.ma
+2025-02-27 20:21:40,667 - BatchRenamer Logger 1.0.0 - INFO - number of strings to replace: 1
+2025-02-27 20:21:40,667 - BatchRenamer Logger 1.0.0 - WARNING - Prefix already exists in base name
+2025-02-27 20:21:40,667 - BatchRenamer Logger 1.0.0 - INFO - Renamed file from E:/repos/Batch-renamer-GUI/testing_files\M_iron.ma to E:/repos/Batch-renamer-GUI/testing_files\M_iron.ma
+2025-02-27 20:21:40,667 - BatchRenamer Logger 1.0.0 - INFO - Getting renamed file path for: M_stone_file_final_new_02b.ma
+2025-02-27 20:21:40,667 - BatchRenamer Logger 1.0.0 - INFO - number of strings to replace: 1
+2025-02-27 20:21:40,667 - BatchRenamer Logger 1.0.0 - WARNING - Prefix already exists in base name
+2025-02-27 20:21:40,668 - BatchRenamer Logger 1.0.0 - INFO - Renamed file from E:/repos/Batch-renamer-GUI/testing_files\M_stone_file_final_new_02b.ma to E:/repos/Batch-renamer-GUI/testing_files\M_stone.ma
+2025-02-27 20:21:40,668 - BatchRenamer Logger 1.0.0 - INFO - Getting renamed file path for: M_tree.ma
+2025-02-27 20:21:40,668 - BatchRenamer Logger 1.0.0 - INFO - number of strings to replace: 1
+2025-02-27 20:21:40,668 - BatchRenamer Logger 1.0.0 - WARNING - Prefix already exists in base name
+2025-02-27 20:21:40,668 - BatchRenamer Logger 1.0.0 - INFO - Renamed file from E:/repos/Batch-renamer-GUI/testing_files\M_tree.ma to E:/repos/Batch-renamer-GUI/testing_files\M_tree.ma
+2025-02-27 20:21:40,668 - BatchRenamer Logger 1.0.0 - INFO - Updating file list
+2025-02-27 20:21:57,266 - BatchRenamer Logger 1.0.0 - INFO - Running batch renamer with the following parameters:
+2025-02-27 20:21:57,266 - BatchRenamer Logger 1.0.0 - INFO - Filepath: E:/repos/Batch-renamer-GUI/testing_files
+2025-02-27 20:21:57,266 - BatchRenamer Logger 1.0.0 - INFO - Copy files: True
+2025-02-27 20:21:57,266 - BatchRenamer Logger 1.0.0 - INFO - Filetypes: txt
+2025-02-27 20:21:57,266 - BatchRenamer Logger 1.0.0 - INFO - Strings to find: ['']
+2025-02-27 20:21:57,266 - BatchRenamer Logger 1.0.0 - INFO - String to replace: 
+2025-02-27 20:21:57,266 - BatchRenamer Logger 1.0.0 - INFO - Prefix: NOTE_
+2025-02-27 20:21:57,266 - BatchRenamer Logger 1.0.0 - INFO - Suffix: _TEMP
+2025-02-27 20:21:57,266 - BatchRenamer Logger 1.0.0 - INFO - Files with extension: txt in folder: E:/repos/Batch-renamer-GUI/testing_files
+2025-02-27 20:21:57,267 - BatchRenamer Logger 1.0.0 - INFO - Added a matching file: hello_world.txt
+2025-02-27 20:21:57,267 - BatchRenamer Logger 1.0.0 - INFO - Added a matching file: lorem_ipsum.txt
+2025-02-27 20:21:57,267 - BatchRenamer Logger 1.0.0 - INFO - Getting renamed file path for: hello_world.txt
+2025-02-27 20:21:57,267 - BatchRenamer Logger 1.0.0 - INFO - number of strings to replace: 1
+2025-02-27 20:21:57,269 - BatchRenamer Logger 1.0.0 - INFO - Copied file from E:/repos/Batch-renamer-GUI/testing_files\hello_world.txt to E:/repos/Batch-renamer-GUI/testing_files\NOTE_hello_world_TEMP.txt
+2025-02-27 20:21:57,269 - BatchRenamer Logger 1.0.0 - INFO - Getting renamed file path for: lorem_ipsum.txt
+2025-02-27 20:21:57,269 - BatchRenamer Logger 1.0.0 - INFO - number of strings to replace: 1
+2025-02-27 20:21:57,270 - BatchRenamer Logger 1.0.0 - INFO - Copied file from E:/repos/Batch-renamer-GUI/testing_files\lorem_ipsum.txt to E:/repos/Batch-renamer-GUI/testing_files\NOTE_lorem_ipsum_TEMP.txt
+2025-02-27 20:21:57,271 - BatchRenamer Logger 1.0.0 - INFO - Updating file list
+2025-02-27 20:22:19,738 - BatchRenamer Logger 1.0.0 - INFO - Running batch renamer with the following parameters:
+2025-02-27 20:22:19,738 - BatchRenamer Logger 1.0.0 - INFO - Filepath: E:/repos/Batch-renamer-GUI/testing_files
+2025-02-27 20:22:19,738 - BatchRenamer Logger 1.0.0 - INFO - Copy files: False
+2025-02-27 20:22:19,738 - BatchRenamer Logger 1.0.0 - INFO - Filetypes: png
+2025-02-27 20:22:19,738 - BatchRenamer Logger 1.0.0 - INFO - Strings to find: ['texture_']
+2025-02-27 20:22:19,738 - BatchRenamer Logger 1.0.0 - INFO - String to replace: 
+2025-02-27 20:22:19,738 - BatchRenamer Logger 1.0.0 - INFO - Prefix: T_
+2025-02-27 20:22:19,738 - BatchRenamer Logger 1.0.0 - INFO - Suffix: _C
+2025-02-27 20:22:19,739 - BatchRenamer Logger 1.0.0 - INFO - Files with extension: png in folder: E:/repos/Batch-renamer-GUI/testing_files
+2025-02-27 20:22:19,739 - BatchRenamer Logger 1.0.0 - INFO - Added a matching file: texture_iron_diffuse.png
+2025-02-27 20:22:19,739 - BatchRenamer Logger 1.0.0 - INFO - Added a matching file: texture_tree_color.png
+2025-02-27 20:22:19,739 - BatchRenamer Logger 1.0.0 - INFO - Added a matching file: tex_stone_diffuse.png
+2025-02-27 20:22:19,739 - BatchRenamer Logger 1.0.0 - INFO - Getting renamed file path for: texture_iron_diffuse.png
+2025-02-27 20:22:19,739 - BatchRenamer Logger 1.0.0 - INFO - number of strings to replace: 1
+2025-02-27 20:22:19,739 - BatchRenamer Logger 1.0.0 - INFO - Renamed file from E:/repos/Batch-renamer-GUI/testing_files\texture_iron_diffuse.png to E:/repos/Batch-renamer-GUI/testing_files\T_iron_diffuse_C.png
+2025-02-27 20:22:19,739 - BatchRenamer Logger 1.0.0 - INFO - Getting renamed file path for: texture_tree_color.png
+2025-02-27 20:22:19,739 - BatchRenamer Logger 1.0.0 - INFO - number of strings to replace: 1
+2025-02-27 20:22:19,740 - BatchRenamer Logger 1.0.0 - INFO - Renamed file from E:/repos/Batch-renamer-GUI/testing_files\texture_tree_color.png to E:/repos/Batch-renamer-GUI/testing_files\T_tree_color_C.png
+2025-02-27 20:22:19,740 - BatchRenamer Logger 1.0.0 - INFO - Getting renamed file path for: tex_stone_diffuse.png
+2025-02-27 20:22:19,740 - BatchRenamer Logger 1.0.0 - INFO - number of strings to replace: 1
+2025-02-27 20:22:19,740 - BatchRenamer Logger 1.0.0 - INFO - Renamed file from E:/repos/Batch-renamer-GUI/testing_files\tex_stone_diffuse.png to E:/repos/Batch-renamer-GUI/testing_files\T_tex_stone_diffuse_C.png
+2025-02-27 20:22:19,740 - BatchRenamer Logger 1.0.0 - INFO - Updating file list
+2025-02-27 20:22:28,298 - BatchRenamer Logger 1.0.0 - INFO - Running batch renamer with the following parameters:
+2025-02-27 20:22:28,298 - BatchRenamer Logger 1.0.0 - INFO - Filepath: E:/repos/Batch-renamer-GUI/testing_files
+2025-02-27 20:22:28,298 - BatchRenamer Logger 1.0.0 - INFO - Copy files: False
+2025-02-27 20:22:28,298 - BatchRenamer Logger 1.0.0 - INFO - Filetypes: png
+2025-02-27 20:22:28,298 - BatchRenamer Logger 1.0.0 - INFO - Strings to find: ['tex_']
+2025-02-27 20:22:28,298 - BatchRenamer Logger 1.0.0 - INFO - String to replace: 
+2025-02-27 20:22:28,298 - BatchRenamer Logger 1.0.0 - INFO - Prefix: T_
+2025-02-27 20:22:28,298 - BatchRenamer Logger 1.0.0 - INFO - Suffix: _C
+2025-02-27 20:22:28,298 - BatchRenamer Logger 1.0.0 - INFO - Files with extension: png in folder: E:/repos/Batch-renamer-GUI/testing_files
+2025-02-27 20:22:28,299 - BatchRenamer Logger 1.0.0 - INFO - Added a matching file: T_iron_diffuse_C.png
+2025-02-27 20:22:28,299 - BatchRenamer Logger 1.0.0 - INFO - Added a matching file: T_tex_stone_diffuse_C.png
+2025-02-27 20:22:28,299 - BatchRenamer Logger 1.0.0 - INFO - Added a matching file: T_tree_color_C.png
+2025-02-27 20:22:28,299 - BatchRenamer Logger 1.0.0 - INFO - Getting renamed file path for: T_iron_diffuse_C.png
+2025-02-27 20:22:28,299 - BatchRenamer Logger 1.0.0 - INFO - number of strings to replace: 1
+2025-02-27 20:22:28,299 - BatchRenamer Logger 1.0.0 - WARNING - Prefix already exists in base name
+2025-02-27 20:22:28,299 - BatchRenamer Logger 1.0.0 - WARNING - Suffix already exists in base name
+2025-02-27 20:22:28,299 - BatchRenamer Logger 1.0.0 - INFO - Renamed file from E:/repos/Batch-renamer-GUI/testing_files\T_iron_diffuse_C.png to E:/repos/Batch-renamer-GUI/testing_files\T_iron_diffuse_C.png
+2025-02-27 20:22:28,299 - BatchRenamer Logger 1.0.0 - INFO - Getting renamed file path for: T_tex_stone_diffuse_C.png
+2025-02-27 20:22:28,299 - BatchRenamer Logger 1.0.0 - INFO - number of strings to replace: 1
+2025-02-27 20:22:28,299 - BatchRenamer Logger 1.0.0 - WARNING - Prefix already exists in base name
+2025-02-27 20:22:28,299 - BatchRenamer Logger 1.0.0 - WARNING - Suffix already exists in base name
+2025-02-27 20:22:28,300 - BatchRenamer Logger 1.0.0 - INFO - Renamed file from E:/repos/Batch-renamer-GUI/testing_files\T_tex_stone_diffuse_C.png to E:/repos/Batch-renamer-GUI/testing_files\T_stone_diffuse_C.png
+2025-02-27 20:22:28,300 - BatchRenamer Logger 1.0.0 - INFO - Getting renamed file path for: T_tree_color_C.png
+2025-02-27 20:22:28,300 - BatchRenamer Logger 1.0.0 - INFO - number of strings to replace: 1
+2025-02-27 20:22:28,300 - BatchRenamer Logger 1.0.0 - WARNING - Prefix already exists in base name
+2025-02-27 20:22:28,300 - BatchRenamer Logger 1.0.0 - WARNING - Suffix already exists in base name
+2025-02-27 20:22:28,300 - BatchRenamer Logger 1.0.0 - INFO - Renamed file from E:/repos/Batch-renamer-GUI/testing_files\T_tree_color_C.png to E:/repos/Batch-renamer-GUI/testing_files\T_tree_color_C.png
+2025-02-27 20:22:28,300 - BatchRenamer Logger 1.0.0 - INFO - Updating file list
+2025-02-27 20:22:35,034 - BatchRenamer Logger 1.0.0 - INFO - Running batch renamer with the following parameters:
+2025-02-27 20:22:35,034 - BatchRenamer Logger 1.0.0 - INFO - Filepath: E:/repos/Batch-renamer-GUI/testing_files
+2025-02-27 20:22:35,034 - BatchRenamer Logger 1.0.0 - INFO - Copy files: False
+2025-02-27 20:22:35,034 - BatchRenamer Logger 1.0.0 - INFO - Filetypes: png
+2025-02-27 20:22:35,034 - BatchRenamer Logger 1.0.0 - INFO - Strings to find: ['_diffuse']
+2025-02-27 20:22:35,034 - BatchRenamer Logger 1.0.0 - INFO - String to replace: 
+2025-02-27 20:22:35,034 - BatchRenamer Logger 1.0.0 - INFO - Prefix: T_
+2025-02-27 20:22:35,034 - BatchRenamer Logger 1.0.0 - INFO - Suffix: _C
+2025-02-27 20:22:35,034 - BatchRenamer Logger 1.0.0 - INFO - Files with extension: png in folder: E:/repos/Batch-renamer-GUI/testing_files
+2025-02-27 20:22:35,035 - BatchRenamer Logger 1.0.0 - INFO - Added a matching file: T_iron_diffuse_C.png
+2025-02-27 20:22:35,035 - BatchRenamer Logger 1.0.0 - INFO - Added a matching file: T_stone_diffuse_C.png
+2025-02-27 20:22:35,035 - BatchRenamer Logger 1.0.0 - INFO - Added a matching file: T_tree_color_C.png
+2025-02-27 20:22:35,035 - BatchRenamer Logger 1.0.0 - INFO - Getting renamed file path for: T_iron_diffuse_C.png
+2025-02-27 20:22:35,035 - BatchRenamer Logger 1.0.0 - INFO - number of strings to replace: 1
+2025-02-27 20:22:35,035 - BatchRenamer Logger 1.0.0 - WARNING - Prefix already exists in base name
+2025-02-27 20:22:35,035 - BatchRenamer Logger 1.0.0 - WARNING - Suffix already exists in base name
+2025-02-27 20:22:35,035 - BatchRenamer Logger 1.0.0 - INFO - Renamed file from E:/repos/Batch-renamer-GUI/testing_files\T_iron_diffuse_C.png to E:/repos/Batch-renamer-GUI/testing_files\T_iron_C.png
+2025-02-27 20:22:35,035 - BatchRenamer Logger 1.0.0 - INFO - Getting renamed file path for: T_stone_diffuse_C.png
+2025-02-27 20:22:35,035 - BatchRenamer Logger 1.0.0 - INFO - number of strings to replace: 1
+2025-02-27 20:22:35,035 - BatchRenamer Logger 1.0.0 - WARNING - Prefix already exists in base name
+2025-02-27 20:22:35,035 - BatchRenamer Logger 1.0.0 - WARNING - Suffix already exists in base name
+2025-02-27 20:22:35,036 - BatchRenamer Logger 1.0.0 - INFO - Renamed file from E:/repos/Batch-renamer-GUI/testing_files\T_stone_diffuse_C.png to E:/repos/Batch-renamer-GUI/testing_files\T_stone_C.png
+2025-02-27 20:22:35,036 - BatchRenamer Logger 1.0.0 - INFO - Getting renamed file path for: T_tree_color_C.png
+2025-02-27 20:22:35,036 - BatchRenamer Logger 1.0.0 - INFO - number of strings to replace: 1
+2025-02-27 20:22:35,036 - BatchRenamer Logger 1.0.0 - WARNING - Prefix already exists in base name
+2025-02-27 20:22:35,036 - BatchRenamer Logger 1.0.0 - WARNING - Suffix already exists in base name
+2025-02-27 20:22:35,036 - BatchRenamer Logger 1.0.0 - INFO - Renamed file from E:/repos/Batch-renamer-GUI/testing_files\T_tree_color_C.png to E:/repos/Batch-renamer-GUI/testing_files\T_tree_color_C.png
+2025-02-27 20:22:35,036 - BatchRenamer Logger 1.0.0 - INFO - Updating file list
+2025-02-27 20:22:41,890 - BatchRenamer Logger 1.0.0 - INFO - Running batch renamer with the following parameters:
+2025-02-27 20:22:41,890 - BatchRenamer Logger 1.0.0 - INFO - Filepath: E:/repos/Batch-renamer-GUI/testing_files
+2025-02-27 20:22:41,890 - BatchRenamer Logger 1.0.0 - INFO - Copy files: False
+2025-02-27 20:22:41,890 - BatchRenamer Logger 1.0.0 - INFO - Filetypes: png
+2025-02-27 20:22:41,890 - BatchRenamer Logger 1.0.0 - INFO - Strings to find: ['_color']
+2025-02-27 20:22:41,890 - BatchRenamer Logger 1.0.0 - INFO - String to replace: 
+2025-02-27 20:22:41,890 - BatchRenamer Logger 1.0.0 - INFO - Prefix: T_
+2025-02-27 20:22:41,890 - BatchRenamer Logger 1.0.0 - INFO - Suffix: _C
+2025-02-27 20:22:41,890 - BatchRenamer Logger 1.0.0 - INFO - Files with extension: png in folder: E:/repos/Batch-renamer-GUI/testing_files
+2025-02-27 20:22:41,890 - BatchRenamer Logger 1.0.0 - INFO - Added a matching file: T_iron_C.png
+2025-02-27 20:22:41,890 - BatchRenamer Logger 1.0.0 - INFO - Added a matching file: T_stone_C.png
+2025-02-27 20:22:41,890 - BatchRenamer Logger 1.0.0 - INFO - Added a matching file: T_tree_color_C.png
+2025-02-27 20:22:41,890 - BatchRenamer Logger 1.0.0 - INFO - Getting renamed file path for: T_iron_C.png
+2025-02-27 20:22:41,891 - BatchRenamer Logger 1.0.0 - INFO - number of strings to replace: 1
+2025-02-27 20:22:41,891 - BatchRenamer Logger 1.0.0 - WARNING - Prefix already exists in base name
+2025-02-27 20:22:41,891 - BatchRenamer Logger 1.0.0 - WARNING - Suffix already exists in base name
+2025-02-27 20:22:41,891 - BatchRenamer Logger 1.0.0 - INFO - Renamed file from E:/repos/Batch-renamer-GUI/testing_files\T_iron_C.png to E:/repos/Batch-renamer-GUI/testing_files\T_iron_C.png
+2025-02-27 20:22:41,891 - BatchRenamer Logger 1.0.0 - INFO - Getting renamed file path for: T_stone_C.png
+2025-02-27 20:22:41,891 - BatchRenamer Logger 1.0.0 - INFO - number of strings to replace: 1
+2025-02-27 20:22:41,891 - BatchRenamer Logger 1.0.0 - WARNING - Prefix already exists in base name
+2025-02-27 20:22:41,891 - BatchRenamer Logger 1.0.0 - WARNING - Suffix already exists in base name
+2025-02-27 20:22:41,891 - BatchRenamer Logger 1.0.0 - INFO - Renamed file from E:/repos/Batch-renamer-GUI/testing_files\T_stone_C.png to E:/repos/Batch-renamer-GUI/testing_files\T_stone_C.png
+2025-02-27 20:22:41,891 - BatchRenamer Logger 1.0.0 - INFO - Getting renamed file path for: T_tree_color_C.png
+2025-02-27 20:22:41,891 - BatchRenamer Logger 1.0.0 - INFO - number of strings to replace: 1
+2025-02-27 20:22:41,891 - BatchRenamer Logger 1.0.0 - WARNING - Prefix already exists in base name
+2025-02-27 20:22:41,891 - BatchRenamer Logger 1.0.0 - WARNING - Suffix already exists in base name
+2025-02-27 20:22:41,892 - BatchRenamer Logger 1.0.0 - INFO - Renamed file from E:/repos/Batch-renamer-GUI/testing_files\T_tree_color_C.png to E:/repos/Batch-renamer-GUI/testing_files\T_tree_C.png
+2025-02-27 20:22:41,892 - BatchRenamer Logger 1.0.0 - INFO - Updating file list
+2025-02-27 20:27:04,473 - BatchRenamer Logger 1.0.0 - INFO - Logger Initiated
+2025-02-27 20:27:06,658 - BatchRenamer Logger 1.0.0 - INFO - Running batch renamer with the following parameters:
+2025-02-27 20:27:06,658 - BatchRenamer Logger 1.0.0 - INFO - Filepath: 
+2025-02-27 20:27:06,658 - BatchRenamer Logger 1.0.0 - INFO - Copy files: False
+2025-02-27 20:27:06,658 - BatchRenamer Logger 1.0.0 - INFO - Filetypes: 
+2025-02-27 20:27:06,658 - BatchRenamer Logger 1.0.0 - INFO - Strings to find: ['']
+2025-02-27 20:27:06,658 - BatchRenamer Logger 1.0.0 - INFO - String to replace: 
+2025-02-27 20:27:06,658 - BatchRenamer Logger 1.0.0 - INFO - Prefix: 
+2025-02-27 20:27:06,658 - BatchRenamer Logger 1.0.0 - INFO - Suffix: 
+2025-02-27 20:27:06,658 - BatchRenamer Logger 1.0.0 - ERROR - Folder path does not exist
+2025-02-27 20:27:06,658 - BatchRenamer Logger 1.0.0 - INFO - Updating file list
+2025-02-27 20:27:06,658 - BatchRenamer Logger 1.0.0 - ERROR - Error in update_list: 'BatchRenamerWindow' object has no attribute 'filepath'
+2025-02-27 20:27:07,434 - BatchRenamer Logger 1.0.0 - INFO - Browse button clicked
+2025-02-27 20:27:10,259 - BatchRenamer Logger 1.0.0 - INFO - Selected filepath: E:/repos/Batch-renamer-GUI/testing_files
+2025-02-27 20:27:10,260 - BatchRenamer Logger 1.0.0 - INFO - Setting filepath in FilePathEdit
+2025-02-27 20:27:10,260 - BatchRenamer Logger 1.0.0 - INFO - Updating file list
+2025-02-27 20:27:11,114 - BatchRenamer Logger 1.0.0 - INFO - Running batch renamer with the following parameters:
+2025-02-27 20:27:11,114 - BatchRenamer Logger 1.0.0 - INFO - Filepath: E:/repos/Batch-renamer-GUI/testing_files
+2025-02-27 20:27:11,114 - BatchRenamer Logger 1.0.0 - INFO - Copy files: False
+2025-02-27 20:27:11,114 - BatchRenamer Logger 1.0.0 - INFO - Filetypes: 
+2025-02-27 20:27:11,114 - BatchRenamer Logger 1.0.0 - INFO - Strings to find: ['']
+2025-02-27 20:27:11,114 - BatchRenamer Logger 1.0.0 - INFO - String to replace: 
+2025-02-27 20:27:11,114 - BatchRenamer Logger 1.0.0 - INFO - Prefix: 
+2025-02-27 20:27:11,114 - BatchRenamer Logger 1.0.0 - INFO - Suffix: 
+2025-02-27 20:27:11,114 - BatchRenamer Logger 1.0.0 - INFO - Files with extension:  in folder: E:/repos/Batch-renamer-GUI/testing_files
+2025-02-27 20:27:11,114 - BatchRenamer Logger 1.0.0 - WARNING - No files found with extension: 
+2025-02-27 20:27:11,114 - BatchRenamer Logger 1.0.0 - INFO - Updating file list

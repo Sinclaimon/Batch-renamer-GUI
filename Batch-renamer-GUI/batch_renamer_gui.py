@@ -3,7 +3,7 @@ import os
 from PyQt6.QtWidgets import *
 from PyQt6.QtCore import *
 from batch_renamer_ui import Ui_MainWindow 
-import batch_renamer_lib
+import batch_renamer_lib as renamer
 
 class BatchRenamerWindow(QMainWindow, Ui_MainWindow):
     def __init__(self):
@@ -12,7 +12,7 @@ class BatchRenamerWindow(QMainWindow, Ui_MainWindow):
         super(Ui_MainWindow).__init__()
         self.setupUi(self)
         # Instance the "back end"
-        self.batch_renamer = batch_renamer_lib.BatchRenamer()
+        self.batch_renamer = renamer.BatchRenamer()
         # Use the logger from the batch_renamer
         self.logger = self.batch_renamer.logger
         # Connect the browse button to get_filepath function

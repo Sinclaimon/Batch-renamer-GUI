@@ -13,7 +13,7 @@ _TEMP
 True
 -------------------------
 png
-texture, tex _diffuse, _color
+_texture, tex _diffuse, _color
 T_
 _C
 False
