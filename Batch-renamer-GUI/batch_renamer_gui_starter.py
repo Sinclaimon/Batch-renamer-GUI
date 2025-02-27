@@ -97,6 +97,9 @@ class BatchRenamerWindow(QMainWindow, Ui_MainWindow):
             self.batch_renamer.suffix = suffix
 
             self.batch_renamer.rename_files_in_folder(filepath, filetypes, strings_to_find, string_to_replace, prefix, suffix, copy_files)
+
+            # Update the file list after renaming
+            self.update_list()
         except Exception as e:
             self.logger.error(f"Error in run_renamer: {e}")
 
