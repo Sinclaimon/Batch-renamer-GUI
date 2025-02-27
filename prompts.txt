@@ -1,0 +1,20 @@
+ma
+file_01, _file_final_new_02b
+
+M_
+
+False
+-------------------------
+txt
+
+
+NOTE_
+_TEMP
+True
+-------------------------
+png
+texture, tex _diffuse, _color
+T_
+_C
+False
+-------------------------

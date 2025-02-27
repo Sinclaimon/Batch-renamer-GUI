@@ -1,0 +1,392 @@
+2025-02-27 16:09:23,219 - BatchRenamer Logger 1.0.0 - INFO - Logger Initiated
+2025-02-27 16:15:08,961 - BatchRenamer Logger 1.0.0 - INFO - Logger Initiated
+2025-02-27 16:16:25,905 - BatchRenamer Logger 1.0.0 - INFO - Logger Initiated
+2025-02-27 16:18:22,889 - BatchRenamer Logger 1.0.0 - INFO - Logger Initiated
+2025-02-27 16:19:38,227 - BatchRenamer Logger 1.0.0 - INFO - Logger Initiated
+2025-02-27 16:21:15,824 - BatchRenamer Logger 1.0.0 - INFO - Logger Initiated
+2025-02-27 16:25:17,104 - BatchRenamer Logger 1.0.0 - INFO - Logger Initiated
+2025-02-27 16:29:14,390 - BatchRenamer Logger 1.0.0 - INFO - Logger Initiated
+2025-02-27 16:34:03,046 - BatchRenamer Logger 1.0.0 - INFO - Logger Initiated
+2025-02-27 16:37:12,242 - BatchRenamer Logger 1.0.0 - INFO - Logger Initiated
+2025-02-27 16:39:04,799 - BatchRenamer Logger 1.0.0 - INFO - Logger Initiated
+2025-02-27 16:48:50,818 - BatchRenamer Logger 1.0.0 - INFO - Logger Initiated
+2025-02-27 16:48:54,480 - BatchRenamer Logger 1.0.0 - INFO - Browse button clicked
+2025-02-27 16:48:56,248 - BatchRenamer Logger 1.0.0 - INFO - Selected filepath: E:/repos/Batch-renamer-GUI/testing_files
+2025-02-27 16:48:56,248 - BatchRenamer Logger 1.0.0 - INFO - Setting filepath in FilePathEdit
+2025-02-27 16:48:56,248 - BatchRenamer Logger 1.0.0 - INFO - Updating file list
+2025-02-27 16:48:56,248 - BatchRenamer Logger 1.0.0 - ERROR - Error in update_list: 'QListView' object has no attribute 'clear'
+2025-02-27 16:49:01,496 - BatchRenamer Logger 1.0.0 - INFO - Running batch renamer with the following parameters:
+2025-02-27 16:49:01,496 - BatchRenamer Logger 1.0.0 - INFO - Filepath: E:/repos/Batch-renamer-GUI/testing_files
+2025-02-27 16:49:01,496 - BatchRenamer Logger 1.0.0 - INFO - Copy files: False
+2025-02-27 16:49:01,496 - BatchRenamer Logger 1.0.0 - INFO - Filetypes: 
+2025-02-27 16:49:01,496 - BatchRenamer Logger 1.0.0 - INFO - Strings to find: ['']
+2025-02-27 16:49:01,496 - BatchRenamer Logger 1.0.0 - INFO - String to replace: 
+2025-02-27 16:49:01,496 - BatchRenamer Logger 1.0.0 - INFO - Prefix: 
+2025-02-27 16:49:01,496 - BatchRenamer Logger 1.0.0 - INFO - Suffix: 
+2025-02-27 16:49:01,497 - BatchRenamer Logger 1.0.0 - INFO - Getting files with extension:  in folder: E:/repos/Batch-renamer-GUI/testing_files
+2025-02-27 16:49:01,497 - BatchRenamer Logger 1.0.0 - WARNING - No files found with extension: 
+2025-02-27 17:01:03,831 - BatchRenamer Logger 1.0.0 - INFO - Logger Initiated
+2025-02-27 17:01:05,112 - BatchRenamer Logger 1.0.0 - INFO - Browse button clicked
+2025-02-27 17:01:07,155 - BatchRenamer Logger 1.0.0 - INFO - Selected filepath: E:/repos/Batch-renamer-GUI/testing_files
+2025-02-27 17:01:07,155 - BatchRenamer Logger 1.0.0 - INFO - Setting filepath in FilePathEdit
+2025-02-27 17:01:07,155 - BatchRenamer Logger 1.0.0 - INFO - Updating file list
+2025-02-27 17:03:53,611 - BatchRenamer Logger 1.0.0 - INFO - Logger Initiated
+2025-02-27 17:03:55,695 - BatchRenamer Logger 1.0.0 - INFO - Browse button clicked
+2025-02-27 17:03:58,443 - BatchRenamer Logger 1.0.0 - INFO - Selected filepath: E:/repos/Batch-renamer-GUI/testing_files
+2025-02-27 17:03:58,443 - BatchRenamer Logger 1.0.0 - INFO - Setting filepath in FilePathEdit
+2025-02-27 17:03:58,443 - BatchRenamer Logger 1.0.0 - INFO - Updating file list
+2025-02-27 17:04:36,591 - BatchRenamer Logger 1.0.0 - INFO - Running batch renamer with the following parameters:
+2025-02-27 17:04:36,592 - BatchRenamer Logger 1.0.0 - INFO - Filepath: E:/repos/Batch-renamer-GUI/testing_files
+2025-02-27 17:04:36,592 - BatchRenamer Logger 1.0.0 - INFO - Copy files: False
+2025-02-27 17:04:36,592 - BatchRenamer Logger 1.0.0 - INFO - Filetypes: ma
+2025-02-27 17:04:36,592 - BatchRenamer Logger 1.0.0 - INFO - Strings to find: ['hello']
+2025-02-27 17:04:36,592 - BatchRenamer Logger 1.0.0 - INFO - String to replace: helloo
+2025-02-27 17:04:36,592 - BatchRenamer Logger 1.0.0 - INFO - Prefix: la
+2025-02-27 17:04:36,592 - BatchRenamer Logger 1.0.0 - INFO - Suffix: _g
+2025-02-27 17:04:36,592 - BatchRenamer Logger 1.0.0 - INFO - Getting files with extension: ma in folder: E:/repos/Batch-renamer-GUI/testing_files
+2025-02-27 17:04:36,592 - BatchRenamer Logger 1.0.0 - INFO - Added a matching file: iron_file_01.ma
+2025-02-27 17:04:36,592 - BatchRenamer Logger 1.0.0 - INFO - Added a matching file: stone_file_final_new_02b.ma
+2025-02-27 17:04:36,592 - BatchRenamer Logger 1.0.0 - INFO - Added a matching file: tree_file_01.ma
+2025-02-27 17:04:36,592 - BatchRenamer Logger 1.0.0 - INFO - Getting renamed file path for: iron_file_01.ma
+2025-02-27 17:04:36,592 - BatchRenamer Logger 1.0.0 - INFO - number of strings to replace: 1
+2025-02-27 17:04:36,594 - BatchRenamer Logger 1.0.0 - INFO - Renamed file from E:/repos/Batch-renamer-GUI/testing_files\iron_file_01.ma to E:/repos/Batch-renamer-GUI/testing_files\lairon_file_01_g.ma
+2025-02-27 17:04:36,594 - BatchRenamer Logger 1.0.0 - INFO - Getting renamed file path for: stone_file_final_new_02b.ma
+2025-02-27 17:04:36,594 - BatchRenamer Logger 1.0.0 - INFO - number of strings to replace: 1
+2025-02-27 17:04:36,595 - BatchRenamer Logger 1.0.0 - INFO - Renamed file from E:/repos/Batch-renamer-GUI/testing_files\stone_file_final_new_02b.ma to E:/repos/Batch-renamer-GUI/testing_files\lastone_file_final_new_02b_g.ma
+2025-02-27 17:04:36,595 - BatchRenamer Logger 1.0.0 - INFO - Getting renamed file path for: tree_file_01.ma
+2025-02-27 17:04:36,595 - BatchRenamer Logger 1.0.0 - INFO - number of strings to replace: 1
+2025-02-27 17:04:36,595 - BatchRenamer Logger 1.0.0 - INFO - Renamed file from E:/repos/Batch-renamer-GUI/testing_files\tree_file_01.ma to E:/repos/Batch-renamer-GUI/testing_files\latree_file_01_g.ma
+2025-02-27 17:08:17,936 - BatchRenamer Logger 1.0.0 - INFO - Logger Initiated
+2025-02-27 17:08:20,479 - BatchRenamer Logger 1.0.0 - INFO - Browse button clicked
+2025-02-27 17:08:22,732 - BatchRenamer Logger 1.0.0 - INFO - Selected filepath: E:/repos/Batch-renamer-GUI/testing_files
+2025-02-27 17:08:22,733 - BatchRenamer Logger 1.0.0 - INFO - Setting filepath in FilePathEdit
+2025-02-27 17:08:22,733 - BatchRenamer Logger 1.0.0 - INFO - Updating file list
+2025-02-27 17:08:46,943 - BatchRenamer Logger 1.0.0 - INFO - Running batch renamer with the following parameters:
+2025-02-27 17:08:46,943 - BatchRenamer Logger 1.0.0 - INFO - Filepath: E:/repos/Batch-renamer-GUI/testing_files
+2025-02-27 17:08:46,944 - BatchRenamer Logger 1.0.0 - INFO - Copy files: False
+2025-02-27 17:08:46,944 - BatchRenamer Logger 1.0.0 - INFO - Filetypes: ma
+2025-02-27 17:08:46,944 - BatchRenamer Logger 1.0.0 - INFO - Strings to find: ['lat']
+2025-02-27 17:08:46,944 - BatchRenamer Logger 1.0.0 - INFO - String to replace: ree
+2025-02-27 17:08:46,944 - BatchRenamer Logger 1.0.0 - INFO - Prefix: ar_
+2025-02-27 17:08:46,944 - BatchRenamer Logger 1.0.0 - INFO - Suffix: 
+2025-02-27 17:08:46,944 - BatchRenamer Logger 1.0.0 - INFO - Getting files with extension: ma in folder: E:/repos/Batch-renamer-GUI/testing_files
+2025-02-27 17:08:46,944 - BatchRenamer Logger 1.0.0 - INFO - Added a matching file: lairon_file_01_g.ma
+2025-02-27 17:08:46,944 - BatchRenamer Logger 1.0.0 - INFO - Added a matching file: lastone_file_final_new_02b_g.ma
+2025-02-27 17:08:46,944 - BatchRenamer Logger 1.0.0 - INFO - Added a matching file: latree_file_01_g.ma
+2025-02-27 17:08:46,944 - BatchRenamer Logger 1.0.0 - INFO - Getting renamed file path for: lairon_file_01_g.ma
+2025-02-27 17:08:46,944 - BatchRenamer Logger 1.0.0 - INFO - number of strings to replace: 1
+2025-02-27 17:08:46,945 - BatchRenamer Logger 1.0.0 - INFO - Renamed file from E:/repos/Batch-renamer-GUI/testing_files\lairon_file_01_g.ma to E:/repos/Batch-renamer-GUI/testing_files\ar_lairon_file_01_g.ma
+2025-02-27 17:08:46,945 - BatchRenamer Logger 1.0.0 - INFO - Getting renamed file path for: lastone_file_final_new_02b_g.ma
+2025-02-27 17:08:46,945 - BatchRenamer Logger 1.0.0 - INFO - number of strings to replace: 1
+2025-02-27 17:08:46,945 - BatchRenamer Logger 1.0.0 - INFO - Renamed file from E:/repos/Batch-renamer-GUI/testing_files\lastone_file_final_new_02b_g.ma to E:/repos/Batch-renamer-GUI/testing_files\ar_lastone_file_final_new_02b_g.ma
+2025-02-27 17:08:46,945 - BatchRenamer Logger 1.0.0 - INFO - Getting renamed file path for: latree_file_01_g.ma
+2025-02-27 17:08:46,945 - BatchRenamer Logger 1.0.0 - INFO - number of strings to replace: 1
+2025-02-27 17:08:46,946 - BatchRenamer Logger 1.0.0 - INFO - Renamed file from E:/repos/Batch-renamer-GUI/testing_files\latree_file_01_g.ma to E:/repos/Batch-renamer-GUI/testing_files\ar_reeree_file_01_g.ma
+2025-02-27 17:08:46,946 - BatchRenamer Logger 1.0.0 - INFO - Updating file list
+2025-02-27 17:08:53,047 - BatchRenamer Logger 1.0.0 - INFO - Running batch renamer with the following parameters:
+2025-02-27 17:08:53,047 - BatchRenamer Logger 1.0.0 - INFO - Filepath: E:/repos/Batch-renamer-GUI/testing_files
+2025-02-27 17:08:53,047 - BatchRenamer Logger 1.0.0 - INFO - Copy files: True
+2025-02-27 17:08:53,047 - BatchRenamer Logger 1.0.0 - INFO - Filetypes: ma
+2025-02-27 17:08:53,047 - BatchRenamer Logger 1.0.0 - INFO - Strings to find: ['lat']
+2025-02-27 17:08:53,048 - BatchRenamer Logger 1.0.0 - INFO - String to replace: ree
+2025-02-27 17:08:53,048 - BatchRenamer Logger 1.0.0 - INFO - Prefix: ar_
+2025-02-27 17:08:53,048 - BatchRenamer Logger 1.0.0 - INFO - Suffix: 
+2025-02-27 17:08:53,048 - BatchRenamer Logger 1.0.0 - INFO - Getting files with extension: ma in folder: E:/repos/Batch-renamer-GUI/testing_files
+2025-02-27 17:08:53,048 - BatchRenamer Logger 1.0.0 - INFO - Added a matching file: ar_lairon_file_01_g.ma
+2025-02-27 17:08:53,048 - BatchRenamer Logger 1.0.0 - INFO - Added a matching file: ar_lastone_file_final_new_02b_g.ma
+2025-02-27 17:08:53,048 - BatchRenamer Logger 1.0.0 - INFO - Added a matching file: ar_reeree_file_01_g.ma
+2025-02-27 17:08:53,048 - BatchRenamer Logger 1.0.0 - INFO - Getting renamed file path for: ar_lairon_file_01_g.ma
+2025-02-27 17:08:53,048 - BatchRenamer Logger 1.0.0 - INFO - number of strings to replace: 1
+2025-02-27 17:08:53,049 - BatchRenamer Logger 1.0.0 - INFO - Copied file from E:/repos/Batch-renamer-GUI/testing_files\ar_lairon_file_01_g.ma to E:/repos/Batch-renamer-GUI/testing_files\ar_ar_lairon_file_01_g.ma
+2025-02-27 17:08:53,049 - BatchRenamer Logger 1.0.0 - INFO - Getting renamed file path for: ar_lastone_file_final_new_02b_g.ma
+2025-02-27 17:08:53,049 - BatchRenamer Logger 1.0.0 - INFO - number of strings to replace: 1
+2025-02-27 17:08:53,050 - BatchRenamer Logger 1.0.0 - INFO - Copied file from E:/repos/Batch-renamer-GUI/testing_files\ar_lastone_file_final_new_02b_g.ma to E:/repos/Batch-renamer-GUI/testing_files\ar_ar_lastone_file_final_new_02b_g.ma
+2025-02-27 17:08:53,050 - BatchRenamer Logger 1.0.0 - INFO - Getting renamed file path for: ar_reeree_file_01_g.ma
+2025-02-27 17:08:53,050 - BatchRenamer Logger 1.0.0 - INFO - number of strings to replace: 1
+2025-02-27 17:08:53,052 - BatchRenamer Logger 1.0.0 - INFO - Copied file from E:/repos/Batch-renamer-GUI/testing_files\ar_reeree_file_01_g.ma to E:/repos/Batch-renamer-GUI/testing_files\ar_ar_reeree_file_01_g.ma
+2025-02-27 17:08:53,052 - BatchRenamer Logger 1.0.0 - INFO - Updating file list
+2025-02-27 17:08:56,879 - BatchRenamer Logger 1.0.0 - INFO - Running batch renamer with the following parameters:
+2025-02-27 17:08:56,880 - BatchRenamer Logger 1.0.0 - INFO - Filepath: E:/repos/Batch-renamer-GUI/testing_files
+2025-02-27 17:08:56,880 - BatchRenamer Logger 1.0.0 - INFO - Copy files: False
+2025-02-27 17:08:56,880 - BatchRenamer Logger 1.0.0 - INFO - Filetypes: ma
+2025-02-27 17:08:56,880 - BatchRenamer Logger 1.0.0 - INFO - Strings to find: ['lat']
+2025-02-27 17:08:56,880 - BatchRenamer Logger 1.0.0 - INFO - String to replace: ree
+2025-02-27 17:08:56,880 - BatchRenamer Logger 1.0.0 - INFO - Prefix: ar_
+2025-02-27 17:08:56,880 - BatchRenamer Logger 1.0.0 - INFO - Suffix: 
+2025-02-27 17:08:56,880 - BatchRenamer Logger 1.0.0 - INFO - Getting files with extension: ma in folder: E:/repos/Batch-renamer-GUI/testing_files
+2025-02-27 17:08:56,880 - BatchRenamer Logger 1.0.0 - INFO - Added a matching file: ar_ar_lairon_file_01_g.ma
+2025-02-27 17:08:56,880 - BatchRenamer Logger 1.0.0 - INFO - Added a matching file: ar_ar_lastone_file_final_new_02b_g.ma
+2025-02-27 17:08:56,880 - BatchRenamer Logger 1.0.0 - INFO - Added a matching file: ar_ar_reeree_file_01_g.ma
+2025-02-27 17:08:56,880 - BatchRenamer Logger 1.0.0 - INFO - Added a matching file: ar_lairon_file_01_g.ma
+2025-02-27 17:08:56,880 - BatchRenamer Logger 1.0.0 - INFO - Added a matching file: ar_lastone_file_final_new_02b_g.ma
+2025-02-27 17:08:56,880 - BatchRenamer Logger 1.0.0 - INFO - Added a matching file: ar_reeree_file_01_g.ma
+2025-02-27 17:08:56,880 - BatchRenamer Logger 1.0.0 - INFO - Getting renamed file path for: ar_ar_lairon_file_01_g.ma
+2025-02-27 17:08:56,880 - BatchRenamer Logger 1.0.0 - INFO - number of strings to replace: 1
+2025-02-27 17:08:56,881 - BatchRenamer Logger 1.0.0 - INFO - Renamed file from E:/repos/Batch-renamer-GUI/testing_files\ar_ar_lairon_file_01_g.ma to E:/repos/Batch-renamer-GUI/testing_files\ar_ar_ar_lairon_file_01_g.ma
+2025-02-27 17:08:56,881 - BatchRenamer Logger 1.0.0 - INFO - Getting renamed file path for: ar_ar_lastone_file_final_new_02b_g.ma
+2025-02-27 17:08:56,881 - BatchRenamer Logger 1.0.0 - INFO - number of strings to replace: 1
+2025-02-27 17:08:56,881 - BatchRenamer Logger 1.0.0 - INFO - Renamed file from E:/repos/Batch-renamer-GUI/testing_files\ar_ar_lastone_file_final_new_02b_g.ma to E:/repos/Batch-renamer-GUI/testing_files\ar_ar_ar_lastone_file_final_new_02b_g.ma
+2025-02-27 17:08:56,881 - BatchRenamer Logger 1.0.0 - INFO - Getting renamed file path for: ar_ar_reeree_file_01_g.ma
+2025-02-27 17:08:56,881 - BatchRenamer Logger 1.0.0 - INFO - number of strings to replace: 1
+2025-02-27 17:08:56,882 - BatchRenamer Logger 1.0.0 - INFO - Renamed file from E:/repos/Batch-renamer-GUI/testing_files\ar_ar_reeree_file_01_g.ma to E:/repos/Batch-renamer-GUI/testing_files\ar_ar_ar_reeree_file_01_g.ma
+2025-02-27 17:08:56,882 - BatchRenamer Logger 1.0.0 - INFO - Getting renamed file path for: ar_lairon_file_01_g.ma
+2025-02-27 17:08:56,882 - BatchRenamer Logger 1.0.0 - INFO - number of strings to replace: 1
+2025-02-27 17:08:56,882 - BatchRenamer Logger 1.0.0 - INFO - Renamed file from E:/repos/Batch-renamer-GUI/testing_files\ar_lairon_file_01_g.ma to E:/repos/Batch-renamer-GUI/testing_files\ar_ar_lairon_file_01_g.ma
+2025-02-27 17:08:56,882 - BatchRenamer Logger 1.0.0 - INFO - Getting renamed file path for: ar_lastone_file_final_new_02b_g.ma
+2025-02-27 17:08:56,882 - BatchRenamer Logger 1.0.0 - INFO - number of strings to replace: 1
+2025-02-27 17:08:56,883 - BatchRenamer Logger 1.0.0 - INFO - Renamed file from E:/repos/Batch-renamer-GUI/testing_files\ar_lastone_file_final_new_02b_g.ma to E:/repos/Batch-renamer-GUI/testing_files\ar_ar_lastone_file_final_new_02b_g.ma
+2025-02-27 17:08:56,883 - BatchRenamer Logger 1.0.0 - INFO - Getting renamed file path for: ar_reeree_file_01_g.ma
+2025-02-27 17:08:56,883 - BatchRenamer Logger 1.0.0 - INFO - number of strings to replace: 1
+2025-02-27 17:08:56,883 - BatchRenamer Logger 1.0.0 - INFO - Renamed file from E:/repos/Batch-renamer-GUI/testing_files\ar_reeree_file_01_g.ma to E:/repos/Batch-renamer-GUI/testing_files\ar_ar_reeree_file_01_g.ma
+2025-02-27 17:08:56,883 - BatchRenamer Logger 1.0.0 - INFO - Updating file list
+2025-02-27 17:08:57,719 - BatchRenamer Logger 1.0.0 - INFO - Running batch renamer with the following parameters:
+2025-02-27 17:08:57,720 - BatchRenamer Logger 1.0.0 - INFO - Filepath: E:/repos/Batch-renamer-GUI/testing_files
+2025-02-27 17:08:57,720 - BatchRenamer Logger 1.0.0 - INFO - Copy files: False
+2025-02-27 17:08:57,720 - BatchRenamer Logger 1.0.0 - INFO - Filetypes: ma
+2025-02-27 17:08:57,720 - BatchRenamer Logger 1.0.0 - INFO - Strings to find: ['lat']
+2025-02-27 17:08:57,720 - BatchRenamer Logger 1.0.0 - INFO - String to replace: ree
+2025-02-27 17:08:57,720 - BatchRenamer Logger 1.0.0 - INFO - Prefix: ar_
+2025-02-27 17:08:57,720 - BatchRenamer Logger 1.0.0 - INFO - Suffix: 
+2025-02-27 17:08:57,720 - BatchRenamer Logger 1.0.0 - INFO - Getting files with extension: ma in folder: E:/repos/Batch-renamer-GUI/testing_files
+2025-02-27 17:08:57,720 - BatchRenamer Logger 1.0.0 - INFO - Added a matching file: ar_ar_ar_lairon_file_01_g.ma
+2025-02-27 17:08:57,720 - BatchRenamer Logger 1.0.0 - INFO - Added a matching file: ar_ar_ar_lastone_file_final_new_02b_g.ma
+2025-02-27 17:08:57,720 - BatchRenamer Logger 1.0.0 - INFO - Added a matching file: ar_ar_ar_reeree_file_01_g.ma
+2025-02-27 17:08:57,720 - BatchRenamer Logger 1.0.0 - INFO - Added a matching file: ar_ar_lairon_file_01_g.ma
+2025-02-27 17:08:57,720 - BatchRenamer Logger 1.0.0 - INFO - Added a matching file: ar_ar_lastone_file_final_new_02b_g.ma
+2025-02-27 17:08:57,720 - BatchRenamer Logger 1.0.0 - INFO - Added a matching file: ar_ar_reeree_file_01_g.ma
+2025-02-27 17:08:57,720 - BatchRenamer Logger 1.0.0 - INFO - Getting renamed file path for: ar_ar_ar_lairon_file_01_g.ma
+2025-02-27 17:08:57,720 - BatchRenamer Logger 1.0.0 - INFO - number of strings to replace: 1
+2025-02-27 17:08:57,721 - BatchRenamer Logger 1.0.0 - INFO - Renamed file from E:/repos/Batch-renamer-GUI/testing_files\ar_ar_ar_lairon_file_01_g.ma to E:/repos/Batch-renamer-GUI/testing_files\ar_ar_ar_ar_lairon_file_01_g.ma
+2025-02-27 17:08:57,721 - BatchRenamer Logger 1.0.0 - INFO - Getting renamed file path for: ar_ar_ar_lastone_file_final_new_02b_g.ma
+2025-02-27 17:08:57,721 - BatchRenamer Logger 1.0.0 - INFO - number of strings to replace: 1
+2025-02-27 17:08:57,721 - BatchRenamer Logger 1.0.0 - INFO - Renamed file from E:/repos/Batch-renamer-GUI/testing_files\ar_ar_ar_lastone_file_final_new_02b_g.ma to E:/repos/Batch-renamer-GUI/testing_files\ar_ar_ar_ar_lastone_file_final_new_02b_g.ma
+2025-02-27 17:08:57,721 - BatchRenamer Logger 1.0.0 - INFO - Getting renamed file path for: ar_ar_ar_reeree_file_01_g.ma
+2025-02-27 17:08:57,721 - BatchRenamer Logger 1.0.0 - INFO - number of strings to replace: 1
+2025-02-27 17:08:57,722 - BatchRenamer Logger 1.0.0 - INFO - Renamed file from E:/repos/Batch-renamer-GUI/testing_files\ar_ar_ar_reeree_file_01_g.ma to E:/repos/Batch-renamer-GUI/testing_files\ar_ar_ar_ar_reeree_file_01_g.ma
+2025-02-27 17:08:57,722 - BatchRenamer Logger 1.0.0 - INFO - Getting renamed file path for: ar_ar_lairon_file_01_g.ma
+2025-02-27 17:08:57,722 - BatchRenamer Logger 1.0.0 - INFO - number of strings to replace: 1
+2025-02-27 17:08:57,722 - BatchRenamer Logger 1.0.0 - INFO - Renamed file from E:/repos/Batch-renamer-GUI/testing_files\ar_ar_lairon_file_01_g.ma to E:/repos/Batch-renamer-GUI/testing_files\ar_ar_ar_lairon_file_01_g.ma
+2025-02-27 17:08:57,722 - BatchRenamer Logger 1.0.0 - INFO - Getting renamed file path for: ar_ar_lastone_file_final_new_02b_g.ma
+2025-02-27 17:08:57,722 - BatchRenamer Logger 1.0.0 - INFO - number of strings to replace: 1
+2025-02-27 17:08:57,723 - BatchRenamer Logger 1.0.0 - INFO - Renamed file from E:/repos/Batch-renamer-GUI/testing_files\ar_ar_lastone_file_final_new_02b_g.ma to E:/repos/Batch-renamer-GUI/testing_files\ar_ar_ar_lastone_file_final_new_02b_g.ma
+2025-02-27 17:08:57,723 - BatchRenamer Logger 1.0.0 - INFO - Getting renamed file path for: ar_ar_reeree_file_01_g.ma
+2025-02-27 17:08:57,723 - BatchRenamer Logger 1.0.0 - INFO - number of strings to replace: 1
+2025-02-27 17:08:57,723 - BatchRenamer Logger 1.0.0 - INFO - Renamed file from E:/repos/Batch-renamer-GUI/testing_files\ar_ar_reeree_file_01_g.ma to E:/repos/Batch-renamer-GUI/testing_files\ar_ar_ar_reeree_file_01_g.ma
+2025-02-27 17:08:57,723 - BatchRenamer Logger 1.0.0 - INFO - Updating file list
+2025-02-27 17:24:23,962 - BatchRenamer Logger 1.0.0 - INFO - Logger Initiated
+2025-02-27 17:25:14,916 - BatchRenamer Logger 1.0.0 - INFO - Logger Initiated
+2025-02-27 17:27:14,151 - BatchRenamer Logger 1.0.0 - INFO - Logger Initiated
+2025-02-27 17:28:04,204 - BatchRenamer Logger 1.0.0 - INFO - Logger Initiated
+2025-02-27 17:28:11,994 - BatchRenamer Logger 1.0.0 - INFO - Logger Initiated
+2025-02-27 19:29:07,332 - BatchRenamer Logger 1.0.0 - INFO - Logger Initiated
+2025-02-27 19:29:09,819 - BatchRenamer Logger 1.0.0 - INFO - Browse button clicked
+2025-02-27 19:29:11,946 - BatchRenamer Logger 1.0.0 - INFO - Selected filepath: E:/repos/Batch-renamer-GUI/testing_files
+2025-02-27 19:29:11,946 - BatchRenamer Logger 1.0.0 - INFO - Setting filepath in FilePathEdit
+2025-02-27 19:29:11,946 - BatchRenamer Logger 1.0.0 - INFO - Updating file list
+2025-02-27 19:31:52,147 - BatchRenamer Logger 1.0.0 - INFO - Running batch renamer with the following parameters:
+2025-02-27 19:31:52,148 - BatchRenamer Logger 1.0.0 - INFO - Filepath: E:/repos/Batch-renamer-GUI/testing_files
+2025-02-27 19:31:52,148 - BatchRenamer Logger 1.0.0 - INFO - Copy files: False
+2025-02-27 19:31:52,148 - BatchRenamer Logger 1.0.0 - INFO - Filetypes: txt
+2025-02-27 19:31:52,148 - BatchRenamer Logger 1.0.0 - INFO - Strings to find: ['']
+2025-02-27 19:31:52,148 - BatchRenamer Logger 1.0.0 - INFO - String to replace: 
+2025-02-27 19:31:52,148 - BatchRenamer Logger 1.0.0 - INFO - Prefix: NOTE_
+2025-02-27 19:31:52,148 - BatchRenamer Logger 1.0.0 - INFO - Suffix: _TEMP
+2025-02-27 19:31:52,148 - BatchRenamer Logger 1.0.0 - INFO - Getting files with extension: txt in folder: E:/repos/Batch-renamer-GUI/testing_files
+2025-02-27 19:31:52,148 - BatchRenamer Logger 1.0.0 - INFO - Added a matching file: hello_world.txt
+2025-02-27 19:31:52,148 - BatchRenamer Logger 1.0.0 - INFO - Added a matching file: lorem_ipsum.txt
+2025-02-27 19:31:52,148 - BatchRenamer Logger 1.0.0 - INFO - Getting renamed file path for: hello_world.txt
+2025-02-27 19:31:52,148 - BatchRenamer Logger 1.0.0 - INFO - number of strings to replace: 1
+2025-02-27 19:31:52,149 - BatchRenamer Logger 1.0.0 - INFO - Renamed file from E:/repos/Batch-renamer-GUI/testing_files\hello_world.txt to E:/repos/Batch-renamer-GUI/testing_files\NOTE_hello_world_TEMP.txt
+2025-02-27 19:31:52,149 - BatchRenamer Logger 1.0.0 - INFO - Getting renamed file path for: lorem_ipsum.txt
+2025-02-27 19:31:52,149 - BatchRenamer Logger 1.0.0 - INFO - number of strings to replace: 1
+2025-02-27 19:31:52,149 - BatchRenamer Logger 1.0.0 - INFO - Renamed file from E:/repos/Batch-renamer-GUI/testing_files\lorem_ipsum.txt to E:/repos/Batch-renamer-GUI/testing_files\NOTE_lorem_ipsum_TEMP.txt
+2025-02-27 19:31:52,149 - BatchRenamer Logger 1.0.0 - INFO - Updating file list
+2025-02-27 19:37:25,409 - BatchRenamer Logger 1.0.0 - INFO - Logger Initiated
+2025-02-27 19:37:33,227 - BatchRenamer Logger 1.0.0 - INFO - Browse button clicked
+2025-02-27 19:37:34,764 - BatchRenamer Logger 1.0.0 - INFO - Selected filepath: E:/repos/Batch-renamer-GUI/testing_files
+2025-02-27 19:37:34,764 - BatchRenamer Logger 1.0.0 - INFO - Setting filepath in FilePathEdit
+2025-02-27 19:37:34,764 - BatchRenamer Logger 1.0.0 - INFO - Updating file list
+2025-02-27 19:37:55,827 - BatchRenamer Logger 1.0.0 - INFO - Running batch renamer with the following parameters:
+2025-02-27 19:37:55,827 - BatchRenamer Logger 1.0.0 - INFO - Filepath: E:/repos/Batch-renamer-GUI/testing_files
+2025-02-27 19:37:55,827 - BatchRenamer Logger 1.0.0 - INFO - Copy files: False
+2025-02-27 19:37:55,827 - BatchRenamer Logger 1.0.0 - INFO - Filetypes: ma
+2025-02-27 19:37:55,827 - BatchRenamer Logger 1.0.0 - INFO - Strings to find: ['stone_file_final_new_02b', 'tree_file_01', 'iron_file_01']
+2025-02-27 19:37:55,827 - BatchRenamer Logger 1.0.0 - INFO - String to replace: stone,tree,iron
+2025-02-27 19:37:55,827 - BatchRenamer Logger 1.0.0 - INFO - Prefix: M_
+2025-02-27 19:37:55,828 - BatchRenamer Logger 1.0.0 - INFO - Suffix: 
+2025-02-27 19:37:55,828 - BatchRenamer Logger 1.0.0 - INFO - Getting files with extension: ma in folder: E:/repos/Batch-renamer-GUI/testing_files
+2025-02-27 19:37:55,828 - BatchRenamer Logger 1.0.0 - INFO - Added a matching file: iron_file_01.ma
+2025-02-27 19:37:55,828 - BatchRenamer Logger 1.0.0 - INFO - Added a matching file: stone_file_final_new_02b.ma
+2025-02-27 19:37:55,828 - BatchRenamer Logger 1.0.0 - INFO - Added a matching file: tree_file_01.ma
+2025-02-27 19:37:55,828 - BatchRenamer Logger 1.0.0 - INFO - Getting renamed file path for: iron_file_01.ma
+2025-02-27 19:37:55,828 - BatchRenamer Logger 1.0.0 - INFO - number of strings to replace: 3
+2025-02-27 19:37:55,829 - BatchRenamer Logger 1.0.0 - INFO - Renamed file from E:/repos/Batch-renamer-GUI/testing_files\iron_file_01.ma to E:/repos/Batch-renamer-GUI/testing_files\M_stone,tree,iron.ma
+2025-02-27 19:37:55,829 - BatchRenamer Logger 1.0.0 - INFO - Getting renamed file path for: stone_file_final_new_02b.ma
+2025-02-27 19:37:55,829 - BatchRenamer Logger 1.0.0 - INFO - number of strings to replace: 3
+2025-02-27 19:37:55,830 - BatchRenamer Logger 1.0.0 - ERROR - Failed to rename/copy file to E:/repos/Batch-renamer-GUI/testing_files\M_stone,tree,iron.ma: [WinError 183] Cannot create a file when that file already exists: 'E:/repos/Batch-renamer-GUI/testing_files\\stone_file_final_new_02b.ma' -> 'E:/repos/Batch-renamer-GUI/testing_files\\M_stone,tree,iron.ma'
+2025-02-27 19:37:55,830 - BatchRenamer Logger 1.0.0 - INFO - Getting renamed file path for: tree_file_01.ma
+2025-02-27 19:37:55,830 - BatchRenamer Logger 1.0.0 - INFO - number of strings to replace: 3
+2025-02-27 19:37:55,830 - BatchRenamer Logger 1.0.0 - ERROR - Failed to rename/copy file to E:/repos/Batch-renamer-GUI/testing_files\M_stone,tree,iron.ma: [WinError 183] Cannot create a file when that file already exists: 'E:/repos/Batch-renamer-GUI/testing_files\\tree_file_01.ma' -> 'E:/repos/Batch-renamer-GUI/testing_files\\M_stone,tree,iron.ma'
+2025-02-27 19:37:55,830 - BatchRenamer Logger 1.0.0 - INFO - Updating file list
+2025-02-27 19:43:35,419 - BatchRenamer Logger 1.0.0 - INFO - Browse button clicked
+2025-02-27 19:43:37,676 - BatchRenamer Logger 1.0.0 - INFO - Selected filepath: E:/repos/Batch-renamer-GUI/testing_files
+2025-02-27 19:43:37,676 - BatchRenamer Logger 1.0.0 - INFO - Setting filepath in FilePathEdit
+2025-02-27 19:43:37,676 - BatchRenamer Logger 1.0.0 - INFO - Updating file list
+2025-02-27 19:43:53,086 - BatchRenamer Logger 1.0.0 - INFO - Logger Initiated
+2025-02-27 19:43:59,211 - BatchRenamer Logger 1.0.0 - INFO - Browse button clicked
+2025-02-27 19:44:00,858 - BatchRenamer Logger 1.0.0 - INFO - Selected filepath: E:/repos/Batch-renamer-GUI/testing_files
+2025-02-27 19:44:00,858 - BatchRenamer Logger 1.0.0 - INFO - Setting filepath in FilePathEdit
+2025-02-27 19:44:00,858 - BatchRenamer Logger 1.0.0 - INFO - Updating file list
+2025-02-27 19:44:12,403 - BatchRenamer Logger 1.0.0 - INFO - Running batch renamer with the following parameters:
+2025-02-27 19:44:12,403 - BatchRenamer Logger 1.0.0 - INFO - Filepath: E:/repos/Batch-renamer-GUI/testing_files
+2025-02-27 19:44:12,403 - BatchRenamer Logger 1.0.0 - INFO - Copy files: False
+2025-02-27 19:44:12,403 - BatchRenamer Logger 1.0.0 - INFO - Filetypes: ma
+2025-02-27 19:44:12,403 - BatchRenamer Logger 1.0.0 - INFO - Strings to find: ['file_01']
+2025-02-27 19:44:12,403 - BatchRenamer Logger 1.0.0 - INFO - String to replace: 
+2025-02-27 19:44:12,403 - BatchRenamer Logger 1.0.0 - INFO - Prefix: M_
+2025-02-27 19:44:12,403 - BatchRenamer Logger 1.0.0 - INFO - Suffix: 
+2025-02-27 19:44:12,404 - BatchRenamer Logger 1.0.0 - INFO - Getting files with extension: ma in folder: E:/repos/Batch-renamer-GUI/testing_files
+2025-02-27 19:44:12,404 - BatchRenamer Logger 1.0.0 - INFO - Added a matching file: iron_file_01.ma
+2025-02-27 19:44:12,404 - BatchRenamer Logger 1.0.0 - INFO - Added a matching file: stone_file_final_new_02b.ma
+2025-02-27 19:44:12,404 - BatchRenamer Logger 1.0.0 - INFO - Added a matching file: tree_file_01.ma
+2025-02-27 19:44:12,404 - BatchRenamer Logger 1.0.0 - INFO - Getting renamed file path for: iron_file_01.ma
+2025-02-27 19:44:12,404 - BatchRenamer Logger 1.0.0 - INFO - number of strings to replace: 1
+2025-02-27 19:44:12,404 - BatchRenamer Logger 1.0.0 - INFO - Renamed file from E:/repos/Batch-renamer-GUI/testing_files\iron_file_01.ma to E:/repos/Batch-renamer-GUI/testing_files\M_iron_.ma
+2025-02-27 19:44:12,404 - BatchRenamer Logger 1.0.0 - INFO - Getting renamed file path for: stone_file_final_new_02b.ma
+2025-02-27 19:44:12,404 - BatchRenamer Logger 1.0.0 - INFO - number of strings to replace: 1
+2025-02-27 19:44:12,405 - BatchRenamer Logger 1.0.0 - INFO - Renamed file from E:/repos/Batch-renamer-GUI/testing_files\stone_file_final_new_02b.ma to E:/repos/Batch-renamer-GUI/testing_files\M_stone_file_final_new_02b.ma
+2025-02-27 19:44:12,405 - BatchRenamer Logger 1.0.0 - INFO - Getting renamed file path for: tree_file_01.ma
+2025-02-27 19:44:12,405 - BatchRenamer Logger 1.0.0 - INFO - number of strings to replace: 1
+2025-02-27 19:44:12,405 - BatchRenamer Logger 1.0.0 - INFO - Renamed file from E:/repos/Batch-renamer-GUI/testing_files\tree_file_01.ma to E:/repos/Batch-renamer-GUI/testing_files\M_tree_.ma
+2025-02-27 19:44:12,405 - BatchRenamer Logger 1.0.0 - INFO - Updating file list
+2025-02-27 19:44:28,619 - BatchRenamer Logger 1.0.0 - INFO - Running batch renamer with the following parameters:
+2025-02-27 19:44:28,619 - BatchRenamer Logger 1.0.0 - INFO - Filepath: E:/repos/Batch-renamer-GUI/testing_files
+2025-02-27 19:44:28,619 - BatchRenamer Logger 1.0.0 - INFO - Copy files: False
+2025-02-27 19:44:28,619 - BatchRenamer Logger 1.0.0 - INFO - Filetypes: ma
+2025-02-27 19:44:28,619 - BatchRenamer Logger 1.0.0 - INFO - Strings to find: ['_file_final_new_02b']
+2025-02-27 19:44:28,619 - BatchRenamer Logger 1.0.0 - INFO - String to replace: 
+2025-02-27 19:44:28,619 - BatchRenamer Logger 1.0.0 - INFO - Prefix: M_
+2025-02-27 19:44:28,619 - BatchRenamer Logger 1.0.0 - INFO - Suffix: 
+2025-02-27 19:44:28,619 - BatchRenamer Logger 1.0.0 - INFO - Getting files with extension: ma in folder: E:/repos/Batch-renamer-GUI/testing_files
+2025-02-27 19:44:28,620 - BatchRenamer Logger 1.0.0 - INFO - Added a matching file: M_iron_.ma
+2025-02-27 19:44:28,620 - BatchRenamer Logger 1.0.0 - INFO - Added a matching file: M_stone_file_final_new_02b.ma
+2025-02-27 19:44:28,620 - BatchRenamer Logger 1.0.0 - INFO - Added a matching file: M_tree_.ma
+2025-02-27 19:44:28,620 - BatchRenamer Logger 1.0.0 - INFO - Getting renamed file path for: M_iron_.ma
+2025-02-27 19:44:28,620 - BatchRenamer Logger 1.0.0 - INFO - number of strings to replace: 1
+2025-02-27 19:44:28,620 - BatchRenamer Logger 1.0.0 - INFO - Renamed file from E:/repos/Batch-renamer-GUI/testing_files\M_iron_.ma to E:/repos/Batch-renamer-GUI/testing_files\M_M_iron_.ma
+2025-02-27 19:44:28,620 - BatchRenamer Logger 1.0.0 - INFO - Getting renamed file path for: M_stone_file_final_new_02b.ma
+2025-02-27 19:44:28,620 - BatchRenamer Logger 1.0.0 - INFO - number of strings to replace: 1
+2025-02-27 19:44:28,621 - BatchRenamer Logger 1.0.0 - INFO - Renamed file from E:/repos/Batch-renamer-GUI/testing_files\M_stone_file_final_new_02b.ma to E:/repos/Batch-renamer-GUI/testing_files\M_M_stone.ma
+2025-02-27 19:44:28,621 - BatchRenamer Logger 1.0.0 - INFO - Getting renamed file path for: M_tree_.ma
+2025-02-27 19:44:28,621 - BatchRenamer Logger 1.0.0 - INFO - number of strings to replace: 1
+2025-02-27 19:44:28,621 - BatchRenamer Logger 1.0.0 - INFO - Renamed file from E:/repos/Batch-renamer-GUI/testing_files\M_tree_.ma to E:/repos/Batch-renamer-GUI/testing_files\M_M_tree_.ma
+2025-02-27 19:44:28,621 - BatchRenamer Logger 1.0.0 - INFO - Updating file list
+2025-02-27 19:45:51,112 - BatchRenamer Logger 1.0.0 - INFO - Logger Initiated
+2025-02-27 19:45:55,523 - BatchRenamer Logger 1.0.0 - INFO - Browse button clicked
+2025-02-27 19:45:57,284 - BatchRenamer Logger 1.0.0 - INFO - Selected filepath: E:/repos/Batch-renamer-GUI/testing_files
+2025-02-27 19:45:57,284 - BatchRenamer Logger 1.0.0 - INFO - Setting filepath in FilePathEdit
+2025-02-27 19:45:57,284 - BatchRenamer Logger 1.0.0 - INFO - Updating file list
+2025-02-27 19:46:10,963 - BatchRenamer Logger 1.0.0 - INFO - Running batch renamer with the following parameters:
+2025-02-27 19:46:10,963 - BatchRenamer Logger 1.0.0 - INFO - Filepath: E:/repos/Batch-renamer-GUI/testing_files
+2025-02-27 19:46:10,963 - BatchRenamer Logger 1.0.0 - INFO - Copy files: False
+2025-02-27 19:46:10,963 - BatchRenamer Logger 1.0.0 - INFO - Filetypes: ma
+2025-02-27 19:46:10,963 - BatchRenamer Logger 1.0.0 - INFO - Strings to find: ['file_01', ' _file_final_new_02b']
+2025-02-27 19:46:10,963 - BatchRenamer Logger 1.0.0 - INFO - String to replace: 
+2025-02-27 19:46:10,964 - BatchRenamer Logger 1.0.0 - INFO - Prefix: M_
+
+2025-02-27 19:46:10,964 - BatchRenamer Logger 1.0.0 - INFO - Suffix: 
+2025-02-27 19:46:10,964 - BatchRenamer Logger 1.0.0 - INFO - Getting files with extension: ma in folder: E:/repos/Batch-renamer-GUI/testing_files
+2025-02-27 19:46:10,964 - BatchRenamer Logger 1.0.0 - INFO - Added a matching file: iron_file_01.ma
+2025-02-27 19:46:10,964 - BatchRenamer Logger 1.0.0 - INFO - Added a matching file: stone_file_final_new_02b.ma
+2025-02-27 19:46:10,964 - BatchRenamer Logger 1.0.0 - INFO - Added a matching file: tree_file_01.ma
+2025-02-27 19:46:10,964 - BatchRenamer Logger 1.0.0 - INFO - Getting renamed file path for: iron_file_01.ma
+2025-02-27 19:46:10,964 - BatchRenamer Logger 1.0.0 - INFO - number of strings to replace: 2
+2025-02-27 19:46:10,964 - BatchRenamer Logger 1.0.0 - ERROR - Failed to rename/copy file to E:/repos/Batch-renamer-GUI/testing_files\M_
+iron_.ma: [WinError 123] The filename, directory name, or volume label syntax is incorrect: 'E:/repos/Batch-renamer-GUI/testing_files\\iron_file_01.ma' -> 'E:/repos/Batch-renamer-GUI/testing_files\\M_\niron_.ma'
+2025-02-27 19:46:10,965 - BatchRenamer Logger 1.0.0 - INFO - Getting renamed file path for: stone_file_final_new_02b.ma
+2025-02-27 19:46:10,965 - BatchRenamer Logger 1.0.0 - INFO - number of strings to replace: 2
+2025-02-27 19:46:10,965 - BatchRenamer Logger 1.0.0 - ERROR - Failed to rename/copy file to E:/repos/Batch-renamer-GUI/testing_files\M_
+stone_file_final_new_02b.ma: [WinError 123] The filename, directory name, or volume label syntax is incorrect: 'E:/repos/Batch-renamer-GUI/testing_files\\stone_file_final_new_02b.ma' -> 'E:/repos/Batch-renamer-GUI/testing_files\\M_\nstone_file_final_new_02b.ma'
+2025-02-27 19:46:10,965 - BatchRenamer Logger 1.0.0 - INFO - Getting renamed file path for: tree_file_01.ma
+2025-02-27 19:46:10,965 - BatchRenamer Logger 1.0.0 - INFO - number of strings to replace: 2
+2025-02-27 19:46:10,965 - BatchRenamer Logger 1.0.0 - ERROR - Failed to rename/copy file to E:/repos/Batch-renamer-GUI/testing_files\M_
+tree_.ma: [WinError 123] The filename, directory name, or volume label syntax is incorrect: 'E:/repos/Batch-renamer-GUI/testing_files\\tree_file_01.ma' -> 'E:/repos/Batch-renamer-GUI/testing_files\\M_\ntree_.ma'
+2025-02-27 19:46:10,965 - BatchRenamer Logger 1.0.0 - INFO - Updating file list
+2025-02-27 19:46:16,027 - BatchRenamer Logger 1.0.0 - INFO - Running batch renamer with the following parameters:
+2025-02-27 19:46:16,027 - BatchRenamer Logger 1.0.0 - INFO - Filepath: E:/repos/Batch-renamer-GUI/testing_files
+2025-02-27 19:46:16,027 - BatchRenamer Logger 1.0.0 - INFO - Copy files: False
+2025-02-27 19:46:16,027 - BatchRenamer Logger 1.0.0 - INFO - Filetypes: ma
+2025-02-27 19:46:16,027 - BatchRenamer Logger 1.0.0 - INFO - Strings to find: ['file_01', ' _file_final_new_02b']
+2025-02-27 19:46:16,027 - BatchRenamer Logger 1.0.0 - INFO - String to replace: 
+2025-02-27 19:46:16,027 - BatchRenamer Logger 1.0.0 - INFO - Prefix: M_
+
+2025-02-27 19:46:16,027 - BatchRenamer Logger 1.0.0 - INFO - Suffix: 
+2025-02-27 19:46:16,027 - BatchRenamer Logger 1.0.0 - INFO - Getting files with extension: ma in folder: E:/repos/Batch-renamer-GUI/testing_files
+2025-02-27 19:46:16,028 - BatchRenamer Logger 1.0.0 - INFO - Added a matching file: iron_file_01.ma
+2025-02-27 19:46:16,028 - BatchRenamer Logger 1.0.0 - INFO - Added a matching file: stone_file_final_new_02b.ma
+2025-02-27 19:46:16,028 - BatchRenamer Logger 1.0.0 - INFO - Added a matching file: tree_file_01.ma
+2025-02-27 19:46:16,028 - BatchRenamer Logger 1.0.0 - INFO - Getting renamed file path for: iron_file_01.ma
+2025-02-27 19:46:16,028 - BatchRenamer Logger 1.0.0 - INFO - number of strings to replace: 2
+2025-02-27 19:46:16,028 - BatchRenamer Logger 1.0.0 - ERROR - Failed to rename/copy file to E:/repos/Batch-renamer-GUI/testing_files\M_
+iron_.ma: [WinError 123] The filename, directory name, or volume label syntax is incorrect: 'E:/repos/Batch-renamer-GUI/testing_files\\iron_file_01.ma' -> 'E:/repos/Batch-renamer-GUI/testing_files\\M_\niron_.ma'
+2025-02-27 19:46:16,028 - BatchRenamer Logger 1.0.0 - INFO - Getting renamed file path for: stone_file_final_new_02b.ma
+2025-02-27 19:46:16,028 - BatchRenamer Logger 1.0.0 - INFO - number of strings to replace: 2
+2025-02-27 19:46:16,029 - BatchRenamer Logger 1.0.0 - ERROR - Failed to rename/copy file to E:/repos/Batch-renamer-GUI/testing_files\M_
+stone_file_final_new_02b.ma: [WinError 123] The filename, directory name, or volume label syntax is incorrect: 'E:/repos/Batch-renamer-GUI/testing_files\\stone_file_final_new_02b.ma' -> 'E:/repos/Batch-renamer-GUI/testing_files\\M_\nstone_file_final_new_02b.ma'
+2025-02-27 19:46:16,029 - BatchRenamer Logger 1.0.0 - INFO - Getting renamed file path for: tree_file_01.ma
+2025-02-27 19:46:16,029 - BatchRenamer Logger 1.0.0 - INFO - number of strings to replace: 2
+2025-02-27 19:46:16,029 - BatchRenamer Logger 1.0.0 - ERROR - Failed to rename/copy file to E:/repos/Batch-renamer-GUI/testing_files\M_
+tree_.ma: [WinError 123] The filename, directory name, or volume label syntax is incorrect: 'E:/repos/Batch-renamer-GUI/testing_files\\tree_file_01.ma' -> 'E:/repos/Batch-renamer-GUI/testing_files\\M_\ntree_.ma'
+2025-02-27 19:46:16,029 - BatchRenamer Logger 1.0.0 - INFO - Updating file list
+2025-02-27 19:46:27,595 - BatchRenamer Logger 1.0.0 - INFO - Running batch renamer with the following parameters:
+2025-02-27 19:46:27,595 - BatchRenamer Logger 1.0.0 - INFO - Filepath: E:/repos/Batch-renamer-GUI/testing_files
+2025-02-27 19:46:27,595 - BatchRenamer Logger 1.0.0 - INFO - Copy files: False
+2025-02-27 19:46:27,595 - BatchRenamer Logger 1.0.0 - INFO - Filetypes: ma
+2025-02-27 19:46:27,595 - BatchRenamer Logger 1.0.0 - INFO - Strings to find: ['file_01', ' _file_final_new_02b']
+2025-02-27 19:46:27,595 - BatchRenamer Logger 1.0.0 - INFO - String to replace: 
+2025-02-27 19:46:27,595 - BatchRenamer Logger 1.0.0 - INFO - Prefix: M_
+
+2025-02-27 19:46:27,595 - BatchRenamer Logger 1.0.0 - INFO - Suffix: 
+2025-02-27 19:46:27,596 - BatchRenamer Logger 1.0.0 - INFO - Getting files with extension: ma in folder: E:/repos/Batch-renamer-GUI/testing_files
+2025-02-27 19:46:27,596 - BatchRenamer Logger 1.0.0 - INFO - Added a matching file: iron_file_01.ma
+2025-02-27 19:46:27,596 - BatchRenamer Logger 1.0.0 - INFO - Added a matching file: stone_file_final_new_02b.ma
+2025-02-27 19:46:27,596 - BatchRenamer Logger 1.0.0 - INFO - Added a matching file: tree_file_01.ma
+2025-02-27 19:46:27,596 - BatchRenamer Logger 1.0.0 - INFO - Getting renamed file path for: iron_file_01.ma
+2025-02-27 19:46:27,596 - BatchRenamer Logger 1.0.0 - INFO - number of strings to replace: 2
+2025-02-27 19:46:27,596 - BatchRenamer Logger 1.0.0 - ERROR - Failed to rename/copy file to E:/repos/Batch-renamer-GUI/testing_files\M_
+iron_.ma: [WinError 123] The filename, directory name, or volume label syntax is incorrect: 'E:/repos/Batch-renamer-GUI/testing_files\\iron_file_01.ma' -> 'E:/repos/Batch-renamer-GUI/testing_files\\M_\niron_.ma'
+2025-02-27 19:46:27,596 - BatchRenamer Logger 1.0.0 - INFO - Getting renamed file path for: stone_file_final_new_02b.ma
+2025-02-27 19:46:27,596 - BatchRenamer Logger 1.0.0 - INFO - number of strings to replace: 2
+2025-02-27 19:46:27,597 - BatchRenamer Logger 1.0.0 - ERROR - Failed to rename/copy file to E:/repos/Batch-renamer-GUI/testing_files\M_
+stone_file_final_new_02b.ma: [WinError 123] The filename, directory name, or volume label syntax is incorrect: 'E:/repos/Batch-renamer-GUI/testing_files\\stone_file_final_new_02b.ma' -> 'E:/repos/Batch-renamer-GUI/testing_files\\M_\nstone_file_final_new_02b.ma'
+2025-02-27 19:46:27,597 - BatchRenamer Logger 1.0.0 - INFO - Getting renamed file path for: tree_file_01.ma
+2025-02-27 19:46:27,597 - BatchRenamer Logger 1.0.0 - INFO - number of strings to replace: 2
+2025-02-27 19:46:27,597 - BatchRenamer Logger 1.0.0 - ERROR - Failed to rename/copy file to E:/repos/Batch-renamer-GUI/testing_files\M_
+tree_.ma: [WinError 123] The filename, directory name, or volume label syntax is incorrect: 'E:/repos/Batch-renamer-GUI/testing_files\\tree_file_01.ma' -> 'E:/repos/Batch-renamer-GUI/testing_files\\M_\ntree_.ma'
+2025-02-27 19:46:27,597 - BatchRenamer Logger 1.0.0 - INFO - Updating file list
+2025-02-27 19:47:20,475 - BatchRenamer Logger 1.0.0 - INFO - Running batch renamer with the following parameters:
+2025-02-27 19:47:20,475 - BatchRenamer Logger 1.0.0 - INFO - Filepath: E:/repos/Batch-renamer-GUI/testing_files
+2025-02-27 19:47:20,475 - BatchRenamer Logger 1.0.0 - INFO - Copy files: False
+2025-02-27 19:47:20,475 - BatchRenamer Logger 1.0.0 - INFO - Filetypes: ma
+2025-02-27 19:47:20,475 - BatchRenamer Logger 1.0.0 - INFO - Strings to find: ['file_01', ' _file_final_new_02b']
+2025-02-27 19:47:20,475 - BatchRenamer Logger 1.0.0 - INFO - String to replace: 
+2025-02-27 19:47:20,475 - BatchRenamer Logger 1.0.0 - INFO - Prefix: M_
+
+2025-02-27 19:47:20,475 - BatchRenamer Logger 1.0.0 - INFO - Suffix: 
+2025-02-27 19:47:20,475 - BatchRenamer Logger 1.0.0 - INFO - Getting files with extension: ma in folder: E:/repos/Batch-renamer-GUI/testing_files
+2025-02-27 19:47:20,476 - BatchRenamer Logger 1.0.0 - INFO - Added a matching file: iron_file_01.ma
+2025-02-27 19:47:20,476 - BatchRenamer Logger 1.0.0 - INFO - Added a matching file: stone_file_final_new_02b.ma
+2025-02-27 19:47:20,476 - BatchRenamer Logger 1.0.0 - INFO - Added a matching file: tree_file_01.ma
+2025-02-27 19:47:20,476 - BatchRenamer Logger 1.0.0 - INFO - Getting renamed file path for: iron_file_01.ma
+2025-02-27 19:47:20,476 - BatchRenamer Logger 1.0.0 - INFO - number of strings to replace: 2
+2025-02-27 19:47:20,476 - BatchRenamer Logger 1.0.0 - ERROR - Failed to rename/copy file to E:/repos/Batch-renamer-GUI/testing_files\M_
+iron_.ma: [WinError 123] The filename, directory name, or volume label syntax is incorrect: 'E:/repos/Batch-renamer-GUI/testing_files\\iron_file_01.ma' -> 'E:/repos/Batch-renamer-GUI/testing_files\\M_\niron_.ma'
+2025-02-27 19:47:20,476 - BatchRenamer Logger 1.0.0 - INFO - Getting renamed file path for: stone_file_final_new_02b.ma
+2025-02-27 19:47:20,476 - BatchRenamer Logger 1.0.0 - INFO - number of strings to replace: 2
+2025-02-27 19:47:20,476 - BatchRenamer Logger 1.0.0 - ERROR - Failed to rename/copy file to E:/repos/Batch-renamer-GUI/testing_files\M_
+stone_file_final_new_02b.ma: [WinError 123] The filename, directory name, or volume label syntax is incorrect: 'E:/repos/Batch-renamer-GUI/testing_files\\stone_file_final_new_02b.ma' -> 'E:/repos/Batch-renamer-GUI/testing_files\\M_\nstone_file_final_new_02b.ma'
+2025-02-27 19:47:20,476 - BatchRenamer Logger 1.0.0 - INFO - Getting renamed file path for: tree_file_01.ma
+2025-02-27 19:47:20,476 - BatchRenamer Logger 1.0.0 - INFO - number of strings to replace: 2
+2025-02-27 19:47:20,477 - BatchRenamer Logger 1.0.0 - ERROR - Failed to rename/copy file to E:/repos/Batch-renamer-GUI/testing_files\M_
+tree_.ma: [WinError 123] The filename, directory name, or volume label syntax is incorrect: 'E:/repos/Batch-renamer-GUI/testing_files\\tree_file_01.ma' -> 'E:/repos/Batch-renamer-GUI/testing_files\\M_\ntree_.ma'
+2025-02-27 19:47:20,477 - BatchRenamer Logger 1.0.0 - INFO - Updating file list
