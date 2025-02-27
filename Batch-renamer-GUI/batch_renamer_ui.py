@@ -87,10 +87,10 @@ class Ui_MainWindow(object):
         self.horizontalLayout.addWidget(self.BrowseButton)
         self.verticalLayout.addLayout(self.horizontalLayout)
         self.gridLayout.addLayout(self.verticalLayout, 0, 0, 1, 1)
-        self.pushButton_2 = QtWidgets.QPushButton(parent=self.centralwidget)
-        self.pushButton_2.setMaximumSize(QtCore.QSize(200, 16777215))
-        self.pushButton_2.setObjectName("pushButton_2")
-        self.gridLayout.addWidget(self.pushButton_2, 4, 0, 1, 1, QtCore.Qt.AlignmentFlag.AlignRight)
+        self.RunButton = QtWidgets.QPushButton(parent=self.centralwidget)
+        self.RunButton.setMaximumSize(QtCore.QSize(200, 16777215))
+        self.RunButton.setObjectName("RunButton")
+        self.gridLayout.addWidget(self.RunButton, 4, 0, 1, 1, QtCore.Qt.AlignmentFlag.AlignRight)
         MainWindow.setCentralWidget(self.centralwidget)
         self.statusbar = QtWidgets.QStatusBar(parent=MainWindow)
         self.statusbar.setObjectName("statusbar")
@@ -112,7 +112,7 @@ class Ui_MainWindow(object):
         self.StringsToReplaceLabel.setText(_translate("MainWindow", "Strings to Replace"))
         self.FilePathLabel.setText(_translate("MainWindow", "File Path"))
         self.BrowseButton.setText(_translate("MainWindow", "Browse"))
-        self.pushButton_2.setText(_translate("MainWindow", "PushButton"))
+        self.RunButton.setText(_translate("MainWindow", "Run"))
 
 
 if __name__ == "__main__":
