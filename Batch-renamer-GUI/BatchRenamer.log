@@ -390,3 +390,289 @@ stone_file_final_new_02b.ma: [WinError 123] The filename, directory name, or vol
 2025-02-27 19:47:20,477 - BatchRenamer Logger 1.0.0 - ERROR - Failed to rename/copy file to E:/repos/Batch-renamer-GUI/testing_files\M_
 tree_.ma: [WinError 123] The filename, directory name, or volume label syntax is incorrect: 'E:/repos/Batch-renamer-GUI/testing_files\\tree_file_01.ma' -> 'E:/repos/Batch-renamer-GUI/testing_files\\M_\ntree_.ma'
 2025-02-27 19:47:20,477 - BatchRenamer Logger 1.0.0 - INFO - Updating file list
+2025-02-27 19:53:17,662 - BatchRenamer Logger 1.0.0 - INFO - Logger Initiated
+2025-02-27 19:53:17,662 - BatchRenamer Logger 1.0.0 - INFO - Logger Initiated
+2025-02-27 19:53:17,662 - BatchRenamer Logger 1.0.0 - INFO - Logger Initiated
+2025-02-27 20:00:29,184 - BatchRenamer Logger 1.0.0 - INFO - Logger Initiated
+2025-02-27 20:00:31,147 - BatchRenamer Logger 1.0.0 - INFO - Browse button clicked
+2025-02-27 20:00:32,767 - BatchRenamer Logger 1.0.0 - INFO - Selected filepath: E:/repos/Batch-renamer-GUI/testing_files
+2025-02-27 20:00:32,767 - BatchRenamer Logger 1.0.0 - INFO - Setting filepath in FilePathEdit
+2025-02-27 20:00:32,767 - BatchRenamer Logger 1.0.0 - INFO - Updating file list
+2025-02-27 20:00:40,802 - BatchRenamer Logger 1.0.0 - INFO - Running batch renamer with the following parameters:
+2025-02-27 20:00:40,803 - BatchRenamer Logger 1.0.0 - INFO - Filepath: E:/repos/Batch-renamer-GUI/testing_files
+2025-02-27 20:00:40,803 - BatchRenamer Logger 1.0.0 - INFO - Copy files: False
+2025-02-27 20:00:40,803 - BatchRenamer Logger 1.0.0 - INFO - Filetypes: 
+2025-02-27 20:00:40,803 - BatchRenamer Logger 1.0.0 - INFO - Strings to find: ['']
+2025-02-27 20:00:40,803 - BatchRenamer Logger 1.0.0 - INFO - String to replace: 
+2025-02-27 20:00:40,803 - BatchRenamer Logger 1.0.0 - INFO - Prefix: hello_
+2025-02-27 20:00:40,803 - BatchRenamer Logger 1.0.0 - INFO - Suffix: 
+2025-02-27 20:00:40,803 - BatchRenamer Logger 1.0.0 - INFO - Files with extension:  in folder: E:/repos/Batch-renamer-GUI/testing_files
+2025-02-27 20:00:40,803 - BatchRenamer Logger 1.0.0 - WARNING - No files found with extension: 
+2025-02-27 20:00:40,803 - BatchRenamer Logger 1.0.0 - INFO - Updating file list
+2025-02-27 20:00:46,243 - BatchRenamer Logger 1.0.0 - INFO - Running batch renamer with the following parameters:
+2025-02-27 20:00:46,243 - BatchRenamer Logger 1.0.0 - INFO - Filepath: E:/repos/Batch-renamer-GUI/testing_files
+2025-02-27 20:00:46,243 - BatchRenamer Logger 1.0.0 - INFO - Copy files: False
+2025-02-27 20:00:46,243 - BatchRenamer Logger 1.0.0 - INFO - Filetypes: txt
+2025-02-27 20:00:46,243 - BatchRenamer Logger 1.0.0 - INFO - Strings to find: ['']
+2025-02-27 20:00:46,243 - BatchRenamer Logger 1.0.0 - INFO - String to replace: 
+2025-02-27 20:00:46,243 - BatchRenamer Logger 1.0.0 - INFO - Prefix: hello_
+2025-02-27 20:00:46,243 - BatchRenamer Logger 1.0.0 - INFO - Suffix: 
+2025-02-27 20:00:46,243 - BatchRenamer Logger 1.0.0 - INFO - Files with extension: txt in folder: E:/repos/Batch-renamer-GUI/testing_files
+2025-02-27 20:00:46,243 - BatchRenamer Logger 1.0.0 - INFO - Added a matching file: hello_world.txt
+2025-02-27 20:00:46,243 - BatchRenamer Logger 1.0.0 - INFO - Added a matching file: lorem_ipsum.txt
+2025-02-27 20:00:46,243 - BatchRenamer Logger 1.0.0 - INFO - Getting renamed file path for: hello_world.txt
+2025-02-27 20:00:46,243 - BatchRenamer Logger 1.0.0 - INFO - number of strings to replace: 1
+2025-02-27 20:00:46,244 - BatchRenamer Logger 1.0.0 - INFO - Renamed file from E:/repos/Batch-renamer-GUI/testing_files\hello_world.txt to E:/repos/Batch-renamer-GUI/testing_files\hello_hello_world.txt
+2025-02-27 20:00:46,244 - BatchRenamer Logger 1.0.0 - INFO - Getting renamed file path for: lorem_ipsum.txt
+2025-02-27 20:00:46,244 - BatchRenamer Logger 1.0.0 - INFO - number of strings to replace: 1
+2025-02-27 20:00:46,244 - BatchRenamer Logger 1.0.0 - INFO - Renamed file from E:/repos/Batch-renamer-GUI/testing_files\lorem_ipsum.txt to E:/repos/Batch-renamer-GUI/testing_files\lorem_ipsum.txt
+2025-02-27 20:00:46,244 - BatchRenamer Logger 1.0.0 - INFO - Updating file list
+2025-02-27 20:00:47,154 - BatchRenamer Logger 1.0.0 - INFO - Running batch renamer with the following parameters:
+2025-02-27 20:00:47,155 - BatchRenamer Logger 1.0.0 - INFO - Filepath: E:/repos/Batch-renamer-GUI/testing_files
+2025-02-27 20:00:47,155 - BatchRenamer Logger 1.0.0 - INFO - Copy files: False
+2025-02-27 20:00:47,155 - BatchRenamer Logger 1.0.0 - INFO - Filetypes: txt
+2025-02-27 20:00:47,155 - BatchRenamer Logger 1.0.0 - INFO - Strings to find: ['']
+2025-02-27 20:00:47,155 - BatchRenamer Logger 1.0.0 - INFO - String to replace: 
+2025-02-27 20:00:47,155 - BatchRenamer Logger 1.0.0 - INFO - Prefix: hello_
+2025-02-27 20:00:47,155 - BatchRenamer Logger 1.0.0 - INFO - Suffix: 
+2025-02-27 20:00:47,155 - BatchRenamer Logger 1.0.0 - INFO - Files with extension: txt in folder: E:/repos/Batch-renamer-GUI/testing_files
+2025-02-27 20:00:47,155 - BatchRenamer Logger 1.0.0 - INFO - Added a matching file: hello_hello_world.txt
+2025-02-27 20:00:47,155 - BatchRenamer Logger 1.0.0 - INFO - Added a matching file: lorem_ipsum.txt
+2025-02-27 20:00:47,155 - BatchRenamer Logger 1.0.0 - INFO - Getting renamed file path for: hello_hello_world.txt
+2025-02-27 20:00:47,155 - BatchRenamer Logger 1.0.0 - INFO - number of strings to replace: 1
+2025-02-27 20:00:47,156 - BatchRenamer Logger 1.0.0 - INFO - Renamed file from E:/repos/Batch-renamer-GUI/testing_files\hello_hello_world.txt to E:/repos/Batch-renamer-GUI/testing_files\hello_hello_hello_world.txt
+2025-02-27 20:00:47,156 - BatchRenamer Logger 1.0.0 - INFO - Getting renamed file path for: lorem_ipsum.txt
+2025-02-27 20:00:47,156 - BatchRenamer Logger 1.0.0 - INFO - number of strings to replace: 1
+2025-02-27 20:00:47,156 - BatchRenamer Logger 1.0.0 - INFO - Renamed file from E:/repos/Batch-renamer-GUI/testing_files\lorem_ipsum.txt to E:/repos/Batch-renamer-GUI/testing_files\lorem_ipsum.txt
+2025-02-27 20:00:47,156 - BatchRenamer Logger 1.0.0 - INFO - Updating file list
+2025-02-27 20:00:47,699 - BatchRenamer Logger 1.0.0 - INFO - Running batch renamer with the following parameters:
+2025-02-27 20:00:47,699 - BatchRenamer Logger 1.0.0 - INFO - Filepath: E:/repos/Batch-renamer-GUI/testing_files
+2025-02-27 20:00:47,699 - BatchRenamer Logger 1.0.0 - INFO - Copy files: False
+2025-02-27 20:00:47,699 - BatchRenamer Logger 1.0.0 - INFO - Filetypes: txt
+2025-02-27 20:00:47,699 - BatchRenamer Logger 1.0.0 - INFO - Strings to find: ['']
+2025-02-27 20:00:47,699 - BatchRenamer Logger 1.0.0 - INFO - String to replace: 
+2025-02-27 20:00:47,699 - BatchRenamer Logger 1.0.0 - INFO - Prefix: hello_
+2025-02-27 20:00:47,699 - BatchRenamer Logger 1.0.0 - INFO - Suffix: 
+2025-02-27 20:00:47,699 - BatchRenamer Logger 1.0.0 - INFO - Files with extension: txt in folder: E:/repos/Batch-renamer-GUI/testing_files
+2025-02-27 20:00:47,699 - BatchRenamer Logger 1.0.0 - INFO - Added a matching file: hello_hello_hello_world.txt
+2025-02-27 20:00:47,699 - BatchRenamer Logger 1.0.0 - INFO - Added a matching file: lorem_ipsum.txt
+2025-02-27 20:00:47,699 - BatchRenamer Logger 1.0.0 - INFO - Getting renamed file path for: hello_hello_hello_world.txt
+2025-02-27 20:00:47,699 - BatchRenamer Logger 1.0.0 - INFO - number of strings to replace: 1
+2025-02-27 20:00:47,700 - BatchRenamer Logger 1.0.0 - INFO - Renamed file from E:/repos/Batch-renamer-GUI/testing_files\hello_hello_hello_world.txt to E:/repos/Batch-renamer-GUI/testing_files\hello_hello_hello_hello_world.txt
+2025-02-27 20:00:47,700 - BatchRenamer Logger 1.0.0 - INFO - Getting renamed file path for: lorem_ipsum.txt
+2025-02-27 20:00:47,700 - BatchRenamer Logger 1.0.0 - INFO - number of strings to replace: 1
+2025-02-27 20:00:47,700 - BatchRenamer Logger 1.0.0 - INFO - Renamed file from E:/repos/Batch-renamer-GUI/testing_files\lorem_ipsum.txt to E:/repos/Batch-renamer-GUI/testing_files\lorem_ipsum.txt
+2025-02-27 20:00:47,700 - BatchRenamer Logger 1.0.0 - INFO - Updating file list
+2025-02-27 20:00:48,067 - BatchRenamer Logger 1.0.0 - INFO - Running batch renamer with the following parameters:
+2025-02-27 20:00:48,067 - BatchRenamer Logger 1.0.0 - INFO - Filepath: E:/repos/Batch-renamer-GUI/testing_files
+2025-02-27 20:00:48,067 - BatchRenamer Logger 1.0.0 - INFO - Copy files: False
+2025-02-27 20:00:48,067 - BatchRenamer Logger 1.0.0 - INFO - Filetypes: txt
+2025-02-27 20:00:48,067 - BatchRenamer Logger 1.0.0 - INFO - Strings to find: ['']
+2025-02-27 20:00:48,067 - BatchRenamer Logger 1.0.0 - INFO - String to replace: 
+2025-02-27 20:00:48,067 - BatchRenamer Logger 1.0.0 - INFO - Prefix: hello_
+2025-02-27 20:00:48,067 - BatchRenamer Logger 1.0.0 - INFO - Suffix: 
+2025-02-27 20:00:48,067 - BatchRenamer Logger 1.0.0 - INFO - Files with extension: txt in folder: E:/repos/Batch-renamer-GUI/testing_files
+2025-02-27 20:00:48,067 - BatchRenamer Logger 1.0.0 - INFO - Added a matching file: hello_hello_hello_hello_world.txt
+2025-02-27 20:00:48,067 - BatchRenamer Logger 1.0.0 - INFO - Added a matching file: lorem_ipsum.txt
+2025-02-27 20:00:48,067 - BatchRenamer Logger 1.0.0 - INFO - Getting renamed file path for: hello_hello_hello_hello_world.txt
+2025-02-27 20:00:48,067 - BatchRenamer Logger 1.0.0 - INFO - number of strings to replace: 1
+2025-02-27 20:00:48,068 - BatchRenamer Logger 1.0.0 - INFO - Renamed file from E:/repos/Batch-renamer-GUI/testing_files\hello_hello_hello_hello_world.txt to E:/repos/Batch-renamer-GUI/testing_files\hello_hello_hello_hello_hello_world.txt
+2025-02-27 20:00:48,068 - BatchRenamer Logger 1.0.0 - INFO - Getting renamed file path for: lorem_ipsum.txt
+2025-02-27 20:00:48,068 - BatchRenamer Logger 1.0.0 - INFO - number of strings to replace: 1
+2025-02-27 20:00:48,068 - BatchRenamer Logger 1.0.0 - INFO - Renamed file from E:/repos/Batch-renamer-GUI/testing_files\lorem_ipsum.txt to E:/repos/Batch-renamer-GUI/testing_files\lorem_ipsum.txt
+2025-02-27 20:00:48,068 - BatchRenamer Logger 1.0.0 - INFO - Updating file list
+2025-02-27 20:03:28,317 - BatchRenamer Logger 1.0.0 - INFO - Logger Initiated
+2025-02-27 20:03:30,307 - BatchRenamer Logger 1.0.0 - INFO - Browse button clicked
+2025-02-27 20:03:32,311 - BatchRenamer Logger 1.0.0 - INFO - Selected filepath: E:/repos/Batch-renamer-GUI/testing_files
+2025-02-27 20:03:32,311 - BatchRenamer Logger 1.0.0 - INFO - Setting filepath in FilePathEdit
+2025-02-27 20:03:32,311 - BatchRenamer Logger 1.0.0 - INFO - Updating file list
+2025-02-27 20:03:42,394 - BatchRenamer Logger 1.0.0 - INFO - Running batch renamer with the following parameters:
+2025-02-27 20:03:42,395 - BatchRenamer Logger 1.0.0 - INFO - Filepath: E:/repos/Batch-renamer-GUI/testing_files
+2025-02-27 20:03:42,395 - BatchRenamer Logger 1.0.0 - INFO - Copy files: False
+2025-02-27 20:03:42,395 - BatchRenamer Logger 1.0.0 - INFO - Filetypes: txt
+2025-02-27 20:03:42,395 - BatchRenamer Logger 1.0.0 - INFO - Strings to find: ['']
+2025-02-27 20:03:42,395 - BatchRenamer Logger 1.0.0 - INFO - String to replace: 
+2025-02-27 20:03:42,395 - BatchRenamer Logger 1.0.0 - INFO - Prefix: hello_
+2025-02-27 20:03:42,395 - BatchRenamer Logger 1.0.0 - INFO - Suffix: 
+2025-02-27 20:03:42,395 - BatchRenamer Logger 1.0.0 - INFO - Files with extension: txt in folder: E:/repos/Batch-renamer-GUI/testing_files
+2025-02-27 20:03:42,395 - BatchRenamer Logger 1.0.0 - INFO - Added a matching file: hello_hello_hello_hello_hello_world.txt
+2025-02-27 20:03:42,395 - BatchRenamer Logger 1.0.0 - INFO - Added a matching file: lorem_ipsum.txt
+2025-02-27 20:03:42,395 - BatchRenamer Logger 1.0.0 - INFO - Getting renamed file path for: hello_hello_hello_hello_hello_world.txt
+2025-02-27 20:03:42,395 - BatchRenamer Logger 1.0.0 - INFO - number of strings to replace: 1
+2025-02-27 20:03:42,396 - BatchRenamer Logger 1.0.0 - INFO - Renamed file from E:/repos/Batch-renamer-GUI/testing_files\hello_hello_hello_hello_hello_world.txt to E:/repos/Batch-renamer-GUI/testing_files\hello_hello_hello_hello_hello_world.txt
+2025-02-27 20:03:42,396 - BatchRenamer Logger 1.0.0 - INFO - Getting renamed file path for: lorem_ipsum.txt
+2025-02-27 20:03:42,396 - BatchRenamer Logger 1.0.0 - INFO - number of strings to replace: 1
+2025-02-27 20:03:42,396 - BatchRenamer Logger 1.0.0 - INFO - Renamed file from E:/repos/Batch-renamer-GUI/testing_files\lorem_ipsum.txt to E:/repos/Batch-renamer-GUI/testing_files\hello_lorem_ipsum.txt
+2025-02-27 20:03:42,396 - BatchRenamer Logger 1.0.0 - INFO - Updating file list
+2025-02-27 20:03:43,827 - BatchRenamer Logger 1.0.0 - INFO - Running batch renamer with the following parameters:
+2025-02-27 20:03:43,827 - BatchRenamer Logger 1.0.0 - INFO - Filepath: E:/repos/Batch-renamer-GUI/testing_files
+2025-02-27 20:03:43,827 - BatchRenamer Logger 1.0.0 - INFO - Copy files: False
+2025-02-27 20:03:43,827 - BatchRenamer Logger 1.0.0 - INFO - Filetypes: txt
+2025-02-27 20:03:43,827 - BatchRenamer Logger 1.0.0 - INFO - Strings to find: ['']
+2025-02-27 20:03:43,827 - BatchRenamer Logger 1.0.0 - INFO - String to replace: 
+2025-02-27 20:03:43,827 - BatchRenamer Logger 1.0.0 - INFO - Prefix: hello_
+2025-02-27 20:03:43,827 - BatchRenamer Logger 1.0.0 - INFO - Suffix: 
+2025-02-27 20:03:43,827 - BatchRenamer Logger 1.0.0 - INFO - Files with extension: txt in folder: E:/repos/Batch-renamer-GUI/testing_files
+2025-02-27 20:03:43,827 - BatchRenamer Logger 1.0.0 - INFO - Added a matching file: hello_hello_hello_hello_hello_world.txt
+2025-02-27 20:03:43,827 - BatchRenamer Logger 1.0.0 - INFO - Added a matching file: hello_lorem_ipsum.txt
+2025-02-27 20:03:43,827 - BatchRenamer Logger 1.0.0 - INFO - Getting renamed file path for: hello_hello_hello_hello_hello_world.txt
+2025-02-27 20:03:43,828 - BatchRenamer Logger 1.0.0 - INFO - number of strings to replace: 1
+2025-02-27 20:03:43,828 - BatchRenamer Logger 1.0.0 - INFO - Renamed file from E:/repos/Batch-renamer-GUI/testing_files\hello_hello_hello_hello_hello_world.txt to E:/repos/Batch-renamer-GUI/testing_files\hello_hello_hello_hello_hello_world.txt
+2025-02-27 20:03:43,828 - BatchRenamer Logger 1.0.0 - INFO - Getting renamed file path for: hello_lorem_ipsum.txt
+2025-02-27 20:03:43,828 - BatchRenamer Logger 1.0.0 - INFO - number of strings to replace: 1
+2025-02-27 20:03:43,828 - BatchRenamer Logger 1.0.0 - INFO - Renamed file from E:/repos/Batch-renamer-GUI/testing_files\hello_lorem_ipsum.txt to E:/repos/Batch-renamer-GUI/testing_files\hello_lorem_ipsum.txt
+2025-02-27 20:03:43,828 - BatchRenamer Logger 1.0.0 - INFO - Updating file list
+2025-02-27 20:03:44,274 - BatchRenamer Logger 1.0.0 - INFO - Running batch renamer with the following parameters:
+2025-02-27 20:03:44,274 - BatchRenamer Logger 1.0.0 - INFO - Filepath: E:/repos/Batch-renamer-GUI/testing_files
+2025-02-27 20:03:44,274 - BatchRenamer Logger 1.0.0 - INFO - Copy files: False
+2025-02-27 20:03:44,275 - BatchRenamer Logger 1.0.0 - INFO - Filetypes: txt
+2025-02-27 20:03:44,275 - BatchRenamer Logger 1.0.0 - INFO - Strings to find: ['']
+2025-02-27 20:03:44,275 - BatchRenamer Logger 1.0.0 - INFO - String to replace: 
+2025-02-27 20:03:44,275 - BatchRenamer Logger 1.0.0 - INFO - Prefix: hello_
+2025-02-27 20:03:44,275 - BatchRenamer Logger 1.0.0 - INFO - Suffix: 
+2025-02-27 20:03:44,275 - BatchRenamer Logger 1.0.0 - INFO - Files with extension: txt in folder: E:/repos/Batch-renamer-GUI/testing_files
+2025-02-27 20:03:44,275 - BatchRenamer Logger 1.0.0 - INFO - Added a matching file: hello_hello_hello_hello_hello_world.txt
+2025-02-27 20:03:44,275 - BatchRenamer Logger 1.0.0 - INFO - Added a matching file: hello_lorem_ipsum.txt
+2025-02-27 20:03:44,275 - BatchRenamer Logger 1.0.0 - INFO - Getting renamed file path for: hello_hello_hello_hello_hello_world.txt
+2025-02-27 20:03:44,275 - BatchRenamer Logger 1.0.0 - INFO - number of strings to replace: 1
+2025-02-27 20:03:44,275 - BatchRenamer Logger 1.0.0 - INFO - Renamed file from E:/repos/Batch-renamer-GUI/testing_files\hello_hello_hello_hello_hello_world.txt to E:/repos/Batch-renamer-GUI/testing_files\hello_hello_hello_hello_hello_world.txt
+2025-02-27 20:03:44,275 - BatchRenamer Logger 1.0.0 - INFO - Getting renamed file path for: hello_lorem_ipsum.txt
+2025-02-27 20:03:44,275 - BatchRenamer Logger 1.0.0 - INFO - number of strings to replace: 1
+2025-02-27 20:03:44,276 - BatchRenamer Logger 1.0.0 - INFO - Renamed file from E:/repos/Batch-renamer-GUI/testing_files\hello_lorem_ipsum.txt to E:/repos/Batch-renamer-GUI/testing_files\hello_lorem_ipsum.txt
+2025-02-27 20:03:44,276 - BatchRenamer Logger 1.0.0 - INFO - Updating file list
+2025-02-27 20:03:44,442 - BatchRenamer Logger 1.0.0 - INFO - Running batch renamer with the following parameters:
+2025-02-27 20:03:44,442 - BatchRenamer Logger 1.0.0 - INFO - Filepath: E:/repos/Batch-renamer-GUI/testing_files
+2025-02-27 20:03:44,443 - BatchRenamer Logger 1.0.0 - INFO - Copy files: False
+2025-02-27 20:03:44,443 - BatchRenamer Logger 1.0.0 - INFO - Filetypes: txt
+2025-02-27 20:03:44,443 - BatchRenamer Logger 1.0.0 - INFO - Strings to find: ['']
+2025-02-27 20:03:44,443 - BatchRenamer Logger 1.0.0 - INFO - String to replace: 
+2025-02-27 20:03:44,443 - BatchRenamer Logger 1.0.0 - INFO - Prefix: hello_
+2025-02-27 20:03:44,443 - BatchRenamer Logger 1.0.0 - INFO - Suffix: 
+2025-02-27 20:03:44,443 - BatchRenamer Logger 1.0.0 - INFO - Files with extension: txt in folder: E:/repos/Batch-renamer-GUI/testing_files
+2025-02-27 20:03:44,443 - BatchRenamer Logger 1.0.0 - INFO - Added a matching file: hello_hello_hello_hello_hello_world.txt
+2025-02-27 20:03:44,443 - BatchRenamer Logger 1.0.0 - INFO - Added a matching file: hello_lorem_ipsum.txt
+2025-02-27 20:03:44,443 - BatchRenamer Logger 1.0.0 - INFO - Getting renamed file path for: hello_hello_hello_hello_hello_world.txt
+2025-02-27 20:03:44,449 - BatchRenamer Logger 1.0.0 - INFO - number of strings to replace: 1
+2025-02-27 20:03:44,449 - BatchRenamer Logger 1.0.0 - INFO - Renamed file from E:/repos/Batch-renamer-GUI/testing_files\hello_hello_hello_hello_hello_world.txt to E:/repos/Batch-renamer-GUI/testing_files\hello_hello_hello_hello_hello_world.txt
+2025-02-27 20:03:44,450 - BatchRenamer Logger 1.0.0 - INFO - Getting renamed file path for: hello_lorem_ipsum.txt
+2025-02-27 20:03:44,450 - BatchRenamer Logger 1.0.0 - INFO - number of strings to replace: 1
+2025-02-27 20:03:44,450 - BatchRenamer Logger 1.0.0 - INFO - Renamed file from E:/repos/Batch-renamer-GUI/testing_files\hello_lorem_ipsum.txt to E:/repos/Batch-renamer-GUI/testing_files\hello_lorem_ipsum.txt
+2025-02-27 20:03:44,450 - BatchRenamer Logger 1.0.0 - INFO - Updating file list
+2025-02-27 20:03:44,586 - BatchRenamer Logger 1.0.0 - INFO - Running batch renamer with the following parameters:
+2025-02-27 20:03:44,586 - BatchRenamer Logger 1.0.0 - INFO - Filepath: E:/repos/Batch-renamer-GUI/testing_files
+2025-02-27 20:03:44,586 - BatchRenamer Logger 1.0.0 - INFO - Copy files: False
+2025-02-27 20:03:44,587 - BatchRenamer Logger 1.0.0 - INFO - Filetypes: txt
+2025-02-27 20:03:44,587 - BatchRenamer Logger 1.0.0 - INFO - Strings to find: ['']
+2025-02-27 20:03:44,587 - BatchRenamer Logger 1.0.0 - INFO - String to replace: 
+2025-02-27 20:03:44,587 - BatchRenamer Logger 1.0.0 - INFO - Prefix: hello_
+2025-02-27 20:03:44,587 - BatchRenamer Logger 1.0.0 - INFO - Suffix: 
+2025-02-27 20:03:44,587 - BatchRenamer Logger 1.0.0 - INFO - Files with extension: txt in folder: E:/repos/Batch-renamer-GUI/testing_files
+2025-02-27 20:03:44,587 - BatchRenamer Logger 1.0.0 - INFO - Added a matching file: hello_hello_hello_hello_hello_world.txt
+2025-02-27 20:03:44,587 - BatchRenamer Logger 1.0.0 - INFO - Added a matching file: hello_lorem_ipsum.txt
+2025-02-27 20:03:44,587 - BatchRenamer Logger 1.0.0 - INFO - Getting renamed file path for: hello_hello_hello_hello_hello_world.txt
+2025-02-27 20:03:44,587 - BatchRenamer Logger 1.0.0 - INFO - number of strings to replace: 1
+2025-02-27 20:03:44,587 - BatchRenamer Logger 1.0.0 - INFO - Renamed file from E:/repos/Batch-renamer-GUI/testing_files\hello_hello_hello_hello_hello_world.txt to E:/repos/Batch-renamer-GUI/testing_files\hello_hello_hello_hello_hello_world.txt
+2025-02-27 20:03:44,587 - BatchRenamer Logger 1.0.0 - INFO - Getting renamed file path for: hello_lorem_ipsum.txt
+2025-02-27 20:03:44,587 - BatchRenamer Logger 1.0.0 - INFO - number of strings to replace: 1
+2025-02-27 20:03:44,588 - BatchRenamer Logger 1.0.0 - INFO - Renamed file from E:/repos/Batch-renamer-GUI/testing_files\hello_lorem_ipsum.txt to E:/repos/Batch-renamer-GUI/testing_files\hello_lorem_ipsum.txt
+2025-02-27 20:03:44,588 - BatchRenamer Logger 1.0.0 - INFO - Updating file list
+2025-02-27 20:03:44,746 - BatchRenamer Logger 1.0.0 - INFO - Running batch renamer with the following parameters:
+2025-02-27 20:03:44,746 - BatchRenamer Logger 1.0.0 - INFO - Filepath: E:/repos/Batch-renamer-GUI/testing_files
+2025-02-27 20:03:44,747 - BatchRenamer Logger 1.0.0 - INFO - Copy files: False
+2025-02-27 20:03:44,747 - BatchRenamer Logger 1.0.0 - INFO - Filetypes: txt
+2025-02-27 20:03:44,747 - BatchRenamer Logger 1.0.0 - INFO - Strings to find: ['']
+2025-02-27 20:03:44,747 - BatchRenamer Logger 1.0.0 - INFO - String to replace: 
+2025-02-27 20:03:44,747 - BatchRenamer Logger 1.0.0 - INFO - Prefix: hello_
+2025-02-27 20:03:44,747 - BatchRenamer Logger 1.0.0 - INFO - Suffix: 
+2025-02-27 20:03:44,747 - BatchRenamer Logger 1.0.0 - INFO - Files with extension: txt in folder: E:/repos/Batch-renamer-GUI/testing_files
+2025-02-27 20:03:44,747 - BatchRenamer Logger 1.0.0 - INFO - Added a matching file: hello_hello_hello_hello_hello_world.txt
+2025-02-27 20:03:44,747 - BatchRenamer Logger 1.0.0 - INFO - Added a matching file: hello_lorem_ipsum.txt
+2025-02-27 20:03:44,747 - BatchRenamer Logger 1.0.0 - INFO - Getting renamed file path for: hello_hello_hello_hello_hello_world.txt
+2025-02-27 20:03:44,747 - BatchRenamer Logger 1.0.0 - INFO - number of strings to replace: 1
+2025-02-27 20:03:44,747 - BatchRenamer Logger 1.0.0 - INFO - Renamed file from E:/repos/Batch-renamer-GUI/testing_files\hello_hello_hello_hello_hello_world.txt to E:/repos/Batch-renamer-GUI/testing_files\hello_hello_hello_hello_hello_world.txt
+2025-02-27 20:03:44,747 - BatchRenamer Logger 1.0.0 - INFO - Getting renamed file path for: hello_lorem_ipsum.txt
+2025-02-27 20:03:44,747 - BatchRenamer Logger 1.0.0 - INFO - number of strings to replace: 1
+2025-02-27 20:03:44,748 - BatchRenamer Logger 1.0.0 - INFO - Renamed file from E:/repos/Batch-renamer-GUI/testing_files\hello_lorem_ipsum.txt to E:/repos/Batch-renamer-GUI/testing_files\hello_lorem_ipsum.txt
+2025-02-27 20:03:44,748 - BatchRenamer Logger 1.0.0 - INFO - Updating file list
+2025-02-27 20:03:44,882 - BatchRenamer Logger 1.0.0 - INFO - Running batch renamer with the following parameters:
+2025-02-27 20:03:44,882 - BatchRenamer Logger 1.0.0 - INFO - Filepath: E:/repos/Batch-renamer-GUI/testing_files
+2025-02-27 20:03:44,882 - BatchRenamer Logger 1.0.0 - INFO - Copy files: False
+2025-02-27 20:03:44,883 - BatchRenamer Logger 1.0.0 - INFO - Filetypes: txt
+2025-02-27 20:03:44,883 - BatchRenamer Logger 1.0.0 - INFO - Strings to find: ['']
+2025-02-27 20:03:44,883 - BatchRenamer Logger 1.0.0 - INFO - String to replace: 
+2025-02-27 20:03:44,883 - BatchRenamer Logger 1.0.0 - INFO - Prefix: hello_
+2025-02-27 20:03:44,883 - BatchRenamer Logger 1.0.0 - INFO - Suffix: 
+2025-02-27 20:03:44,883 - BatchRenamer Logger 1.0.0 - INFO - Files with extension: txt in folder: E:/repos/Batch-renamer-GUI/testing_files
+2025-02-27 20:03:44,883 - BatchRenamer Logger 1.0.0 - INFO - Added a matching file: hello_hello_hello_hello_hello_world.txt
+2025-02-27 20:03:44,883 - BatchRenamer Logger 1.0.0 - INFO - Added a matching file: hello_lorem_ipsum.txt
+2025-02-27 20:03:44,883 - BatchRenamer Logger 1.0.0 - INFO - Getting renamed file path for: hello_hello_hello_hello_hello_world.txt
+2025-02-27 20:03:44,883 - BatchRenamer Logger 1.0.0 - INFO - number of strings to replace: 1
+2025-02-27 20:03:44,883 - BatchRenamer Logger 1.0.0 - INFO - Renamed file from E:/repos/Batch-renamer-GUI/testing_files\hello_hello_hello_hello_hello_world.txt to E:/repos/Batch-renamer-GUI/testing_files\hello_hello_hello_hello_hello_world.txt
+2025-02-27 20:03:44,883 - BatchRenamer Logger 1.0.0 - INFO - Getting renamed file path for: hello_lorem_ipsum.txt
+2025-02-27 20:03:44,883 - BatchRenamer Logger 1.0.0 - INFO - number of strings to replace: 1
+2025-02-27 20:03:44,884 - BatchRenamer Logger 1.0.0 - INFO - Renamed file from E:/repos/Batch-renamer-GUI/testing_files\hello_lorem_ipsum.txt to E:/repos/Batch-renamer-GUI/testing_files\hello_lorem_ipsum.txt
+2025-02-27 20:03:44,884 - BatchRenamer Logger 1.0.0 - INFO - Updating file list
+2025-02-27 20:04:43,558 - BatchRenamer Logger 1.0.0 - INFO - Logger Initiated
+2025-02-27 20:04:45,162 - BatchRenamer Logger 1.0.0 - INFO - Browse button clicked
+2025-02-27 20:04:47,027 - BatchRenamer Logger 1.0.0 - INFO - Selected filepath: E:/repos/Batch-renamer-GUI/testing_files
+2025-02-27 20:04:47,027 - BatchRenamer Logger 1.0.0 - INFO - Setting filepath in FilePathEdit
+2025-02-27 20:04:47,027 - BatchRenamer Logger 1.0.0 - INFO - Updating file list
+2025-02-27 20:04:55,514 - BatchRenamer Logger 1.0.0 - INFO - Running batch renamer with the following parameters:
+2025-02-27 20:04:55,514 - BatchRenamer Logger 1.0.0 - INFO - Filepath: E:/repos/Batch-renamer-GUI/testing_files
+2025-02-27 20:04:55,514 - BatchRenamer Logger 1.0.0 - INFO - Copy files: False
+2025-02-27 20:04:55,514 - BatchRenamer Logger 1.0.0 - INFO - Filetypes: txt
+2025-02-27 20:04:55,515 - BatchRenamer Logger 1.0.0 - INFO - Strings to find: ['']
+2025-02-27 20:04:55,515 - BatchRenamer Logger 1.0.0 - INFO - String to replace: 
+2025-02-27 20:04:55,515 - BatchRenamer Logger 1.0.0 - INFO - Prefix: hello_
+2025-02-27 20:04:55,515 - BatchRenamer Logger 1.0.0 - INFO - Suffix: 
+2025-02-27 20:04:55,515 - BatchRenamer Logger 1.0.0 - INFO - Files with extension: txt in folder: E:/repos/Batch-renamer-GUI/testing_files
+2025-02-27 20:04:55,515 - BatchRenamer Logger 1.0.0 - INFO - Added a matching file: hello_world.txt
+2025-02-27 20:04:55,515 - BatchRenamer Logger 1.0.0 - INFO - Added a matching file: lorem_ipsum.txt
+2025-02-27 20:04:55,515 - BatchRenamer Logger 1.0.0 - INFO - Getting renamed file path for: hello_world.txt
+2025-02-27 20:04:55,515 - BatchRenamer Logger 1.0.0 - INFO - number of strings to replace: 1
+2025-02-27 20:04:55,515 - BatchRenamer Logger 1.0.0 - WARNING - Prefix already exists in base name
+2025-02-27 20:04:55,515 - BatchRenamer Logger 1.0.0 - INFO - Renamed file from E:/repos/Batch-renamer-GUI/testing_files\hello_world.txt to E:/repos/Batch-renamer-GUI/testing_files\hello_world.txt
+2025-02-27 20:04:55,516 - BatchRenamer Logger 1.0.0 - INFO - Getting renamed file path for: lorem_ipsum.txt
+2025-02-27 20:04:55,516 - BatchRenamer Logger 1.0.0 - INFO - number of strings to replace: 1
+2025-02-27 20:04:55,516 - BatchRenamer Logger 1.0.0 - INFO - Renamed file from E:/repos/Batch-renamer-GUI/testing_files\lorem_ipsum.txt to E:/repos/Batch-renamer-GUI/testing_files\hello_lorem_ipsum.txt
+2025-02-27 20:04:55,516 - BatchRenamer Logger 1.0.0 - INFO - Updating file list
+2025-02-27 20:04:57,979 - BatchRenamer Logger 1.0.0 - INFO - Running batch renamer with the following parameters:
+2025-02-27 20:04:57,979 - BatchRenamer Logger 1.0.0 - INFO - Filepath: E:/repos/Batch-renamer-GUI/testing_files
+2025-02-27 20:04:57,979 - BatchRenamer Logger 1.0.0 - INFO - Copy files: False
+2025-02-27 20:04:57,979 - BatchRenamer Logger 1.0.0 - INFO - Filetypes: txt
+2025-02-27 20:04:57,979 - BatchRenamer Logger 1.0.0 - INFO - Strings to find: ['']
+2025-02-27 20:04:57,979 - BatchRenamer Logger 1.0.0 - INFO - String to replace: 
+2025-02-27 20:04:57,979 - BatchRenamer Logger 1.0.0 - INFO - Prefix: hello_
+2025-02-27 20:04:57,979 - BatchRenamer Logger 1.0.0 - INFO - Suffix: 
+2025-02-27 20:04:57,979 - BatchRenamer Logger 1.0.0 - INFO - Files with extension: txt in folder: E:/repos/Batch-renamer-GUI/testing_files
+2025-02-27 20:04:57,979 - BatchRenamer Logger 1.0.0 - INFO - Added a matching file: hello_lorem_ipsum.txt
+2025-02-27 20:04:57,979 - BatchRenamer Logger 1.0.0 - INFO - Added a matching file: hello_world.txt
+2025-02-27 20:04:57,979 - BatchRenamer Logger 1.0.0 - INFO - Getting renamed file path for: hello_lorem_ipsum.txt
+2025-02-27 20:04:57,979 - BatchRenamer Logger 1.0.0 - INFO - number of strings to replace: 1
+2025-02-27 20:04:57,980 - BatchRenamer Logger 1.0.0 - WARNING - Prefix already exists in base name
+2025-02-27 20:04:57,980 - BatchRenamer Logger 1.0.0 - INFO - Renamed file from E:/repos/Batch-renamer-GUI/testing_files\hello_lorem_ipsum.txt to E:/repos/Batch-renamer-GUI/testing_files\hello_lorem_ipsum.txt
+2025-02-27 20:04:57,980 - BatchRenamer Logger 1.0.0 - INFO - Getting renamed file path for: hello_world.txt
+2025-02-27 20:04:57,980 - BatchRenamer Logger 1.0.0 - INFO - number of strings to replace: 1
+2025-02-27 20:04:57,980 - BatchRenamer Logger 1.0.0 - WARNING - Prefix already exists in base name
+2025-02-27 20:04:57,980 - BatchRenamer Logger 1.0.0 - INFO - Renamed file from E:/repos/Batch-renamer-GUI/testing_files\hello_world.txt to E:/repos/Batch-renamer-GUI/testing_files\hello_world.txt
+2025-02-27 20:04:57,980 - BatchRenamer Logger 1.0.0 - INFO - Updating file list
+2025-02-27 20:04:58,410 - BatchRenamer Logger 1.0.0 - INFO - Running batch renamer with the following parameters:
+2025-02-27 20:04:58,411 - BatchRenamer Logger 1.0.0 - INFO - Filepath: E:/repos/Batch-renamer-GUI/testing_files
+2025-02-27 20:04:58,411 - BatchRenamer Logger 1.0.0 - INFO - Copy files: False
+2025-02-27 20:04:58,411 - BatchRenamer Logger 1.0.0 - INFO - Filetypes: txt
+2025-02-27 20:04:58,411 - BatchRenamer Logger 1.0.0 - INFO - Strings to find: ['']
+2025-02-27 20:04:58,411 - BatchRenamer Logger 1.0.0 - INFO - String to replace: 
+2025-02-27 20:04:58,411 - BatchRenamer Logger 1.0.0 - INFO - Prefix: hello_
+2025-02-27 20:04:58,411 - BatchRenamer Logger 1.0.0 - INFO - Suffix: 
+2025-02-27 20:04:58,411 - BatchRenamer Logger 1.0.0 - INFO - Files with extension: txt in folder: E:/repos/Batch-renamer-GUI/testing_files
+2025-02-27 20:04:58,411 - BatchRenamer Logger 1.0.0 - INFO - Added a matching file: hello_lorem_ipsum.txt
+2025-02-27 20:04:58,411 - BatchRenamer Logger 1.0.0 - INFO - Added a matching file: hello_world.txt
+2025-02-27 20:04:58,411 - BatchRenamer Logger 1.0.0 - INFO - Getting renamed file path for: hello_lorem_ipsum.txt
+2025-02-27 20:04:58,411 - BatchRenamer Logger 1.0.0 - INFO - number of strings to replace: 1
+2025-02-27 20:04:58,411 - BatchRenamer Logger 1.0.0 - WARNING - Prefix already exists in base name
+2025-02-27 20:04:58,412 - BatchRenamer Logger 1.0.0 - INFO - Renamed file from E:/repos/Batch-renamer-GUI/testing_files\hello_lorem_ipsum.txt to E:/repos/Batch-renamer-GUI/testing_files\hello_lorem_ipsum.txt
+2025-02-27 20:04:58,412 - BatchRenamer Logger 1.0.0 - INFO - Getting renamed file path for: hello_world.txt
+2025-02-27 20:04:58,412 - BatchRenamer Logger 1.0.0 - INFO - number of strings to replace: 1
+2025-02-27 20:04:58,412 - BatchRenamer Logger 1.0.0 - WARNING - Prefix already exists in base name
+2025-02-27 20:04:58,412 - BatchRenamer Logger 1.0.0 - INFO - Renamed file from E:/repos/Batch-renamer-GUI/testing_files\hello_world.txt to E:/repos/Batch-renamer-GUI/testing_files\hello_world.txt
+2025-02-27 20:04:58,412 - BatchRenamer Logger 1.0.0 - INFO - Updating file list

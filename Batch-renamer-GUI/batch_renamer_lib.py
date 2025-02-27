@@ -74,13 +74,19 @@ class BatchRenamer:
 
         self.logger.info('Logger Initiated')
 
-    def get_renamed_file_path(self, existing_name, string_to_find, string_to_replace, 
-                              prefix, suffix):
+    def get_renamed_file_path(self, 
+                              existing_name, 
+                              string_to_find, 
+                              string_to_replace, 
+                              prefix, 
+                              suffix):
         # Logging
         self.logger.info("Getting renamed file path for: " + existing_name)
         
         # Making string_to_find a list if it isn't already
-        if not isinstance(string_to_find, collections.Collection) or isinstance(string_to_find, str):
+        if not isinstance(
+            string_to_find, collections.Collection) or isinstance(
+                string_to_find, str):
             string_to_find = [string_to_find]
 
         if not string_to_find:
@@ -96,6 +102,13 @@ class BatchRenamer:
             self.logger.debug(f"Replacing '{find_str}' with '{string_to_replace}'")
             base_name = base_name.replace(find_str, string_to_replace)
 
+        # If the wanted prefix or suffix already exists, don't add it again
+        if prefix and prefix in base_name:
+            self.logger.warning("Prefix already exists in base name")
+            prefix = ''
+        if suffix and suffix in base_name:
+            self.logger.warning("Suffix already exists in base name")
+            suffix = ''
         # Adding prefix and suffix
         new_name = prefix + base_name + suffix + extension
 
@@ -107,7 +120,8 @@ class BatchRenamer:
             self.logger.error("Folder path does not exist")
             return []
         
-        self.logger.info("Getting files with extension: " + extension + " in folder: " + folder_path)
+        self.logger.info(
+            "Files with extension: " + extension + " in folder: " + folder_path)
 
         # Getting all files in the folder
         folder_files = next(os.walk(folder_path))[2]
