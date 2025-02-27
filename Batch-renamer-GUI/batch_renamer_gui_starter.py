@@ -1,6 +1,5 @@
 import sys
 import os
-import logging
 from PyQt6.QtWidgets import *
 from PyQt6.QtCore import *
 # You'll need to make this ui in QtDesigner
@@ -9,22 +8,20 @@ from batch_renamer_ui import Ui_MainWindow
 # Recommend you rename this
 import batch_renamer_lib
 
-# Configure logging
-logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(asctime)s - %(message)s')
-
 class BatchRenamerWindow(QMainWindow, Ui_MainWindow):
     def __init__(self):
         # UI Setup
         super().__init__()
         super(Ui_MainWindow).__init__()
         self.setupUi(self)
+        # Instance the "back end"
+        self.batch_renamer = batch_renamer_lib.BatchRenamer()
+        # Use the logger from the batch_renamer
+        self.logger = self.batch_renamer.logger
         # Connect the browse button to get_filepath function
         self.BrowseButton.clicked.connect(self.get_filepath)
         # Connect the Run button to the run_renamer function
         self.RunButton.clicked.connect(self.run_renamer)
-
-        # Instance the "back end"
-        self.batch_renamer = batch_renamer_lib.BatchRenamer()
         
         # Show UI normal vs maximized
         self.showNormal()
@@ -34,24 +31,23 @@ class BatchRenamerWindow(QMainWindow, Ui_MainWindow):
         Open a file dialog for browsing to a folder
         """
         try:
-            logging.info("Browse button clicked")
+            self.logger.info("Browse button clicked")
             self.filepath = QFileDialog().getExistingDirectory()
-            logging.info(f"Selected filepath: {self.filepath}")
+            self.logger.info(f"Selected filepath: {self.filepath}")
             self.set_filepath()
-            self.update_list()
         except Exception as e:
-            logging.error(f"Error in get_filepath: {e}")
+            self.logger.error(f"Error in get_filepath: {e}")
 
     def set_filepath(self):
         """
         Set lineEdit text for filepath
         """
         try:
-            logging.info("Setting filepath in FilePathEdit")
+            self.logger.info("Setting filepath in FilePathEdit")
             self.FilePathEdit.setText(self.filepath)
             self.update_list()
         except Exception as e:
-            logging.error(f"Error in set_filepath: {e}")
+            self.logger.error(f"Error in set_filepath: {e}")
 
     def update_list(self):
         """
@@ -59,13 +55,13 @@ class BatchRenamerWindow(QMainWindow, Ui_MainWindow):
         read files in filepath with os.walk
         Add files as new items
         """
+        self.logger.info("Updating file list")
         try:
-            logging.info("Updating file list")
             self.FilesList.clear()
             for root, dirs, files in os.walk(self.filepath):
                 self.FilesList.addItems(files)
         except Exception as e:
-            logging.error(f"Error in update_list: {e}")
+            self.logger.error(f"Error in update_list: {e}")
 
     def run_renamer(self):
         """
@@ -83,14 +79,14 @@ class BatchRenamerWindow(QMainWindow, Ui_MainWindow):
             prefix = self.PrefixEdit.text()
             suffix = self.SufixEdit.text()
 
-            logging.info("Running batch renamer with the following parameters:")
-            logging.info(f"Filepath: {filepath}")
-            logging.info(f"Copy files: {copy_files}")
-            logging.info(f"Filetypes: {filetypes}")
-            logging.info(f"Strings to find: {strings_to_find}")
-            logging.info(f"String to replace: {string_to_replace}")
-            logging.info(f"Prefix: {prefix}")
-            logging.info(f"Suffix: {suffix}")
+            self.logger.info("Running batch renamer with the following parameters:")
+            self.logger.info(f"Filepath: {filepath}")
+            self.logger.info(f"Copy files: {copy_files}")
+            self.logger.info(f"Filetypes: {filetypes}")
+            self.logger.info(f"Strings to find: {strings_to_find}")
+            self.logger.info(f"String to replace: {string_to_replace}")
+            self.logger.info(f"Prefix: {prefix}")
+            self.logger.info(f"Suffix: {suffix}")
 
             self.batch_renamer.filepath = filepath
             self.batch_renamer.copy_files = copy_files
@@ -102,7 +98,7 @@ class BatchRenamerWindow(QMainWindow, Ui_MainWindow):
 
             self.batch_renamer.rename_files_in_folder(filepath, filetypes, strings_to_find, string_to_replace, prefix, suffix, copy_files)
         except Exception as e:
-            logging.error(f"Error in run_renamer: {e}")
+            self.logger.error(f"Error in run_renamer: {e}")
 
 if __name__ == '__main__':
     app = QApplication(sys.argv)

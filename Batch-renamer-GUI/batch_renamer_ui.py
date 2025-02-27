@@ -1,4 +1,4 @@
-# Form implementation generated from reading ui file 'batch_renamer.ui'
+# Form implementation generated from reading ui file 'batch_renamer_ui.ui'
 #
 # Created by: PyQt6 UI code generator 6.8.0
 #
@@ -12,7 +12,7 @@ from PyQt6 import QtCore, QtGui, QtWidgets
 class Ui_MainWindow(object):
     def setupUi(self, MainWindow):
         MainWindow.setObjectName("MainWindow")
-        MainWindow.resize(841, 554)
+        MainWindow.resize(1009, 592)
         self.centralwidget = QtWidgets.QWidget(parent=MainWindow)
         self.centralwidget.setObjectName("centralwidget")
         self.gridLayout = QtWidgets.QGridLayout(self.centralwidget)
@@ -69,9 +69,6 @@ class Ui_MainWindow(object):
         spacerItem2 = QtWidgets.QSpacerItem(40, 20, QtWidgets.QSizePolicy.Policy.Expanding, QtWidgets.QSizePolicy.Policy.Minimum)
         self.horizontalLayout_3.addItem(spacerItem2)
         self.gridLayout.addLayout(self.horizontalLayout_3, 2, 0, 1, 1)
-        self.FilesList = QtWidgets.QListView(parent=self.centralwidget)
-        self.FilesList.setObjectName("FilesList")
-        self.gridLayout.addWidget(self.FilesList, 3, 0, 1, 1)
         self.verticalLayout = QtWidgets.QVBoxLayout()
         self.verticalLayout.setObjectName("verticalLayout")
         self.horizontalLayout = QtWidgets.QHBoxLayout()
@@ -91,6 +88,9 @@ class Ui_MainWindow(object):
         self.RunButton.setMaximumSize(QtCore.QSize(200, 16777215))
         self.RunButton.setObjectName("RunButton")
         self.gridLayout.addWidget(self.RunButton, 4, 0, 1, 1, QtCore.Qt.AlignmentFlag.AlignRight)
+        self.FilesList = QtWidgets.QListWidget(parent=self.centralwidget)
+        self.FilesList.setObjectName("FilesList")
+        self.gridLayout.addWidget(self.FilesList, 3, 0, 1, 1)
         MainWindow.setCentralWidget(self.centralwidget)
         self.statusbar = QtWidgets.QStatusBar(parent=MainWindow)
         self.statusbar.setObjectName("statusbar")
