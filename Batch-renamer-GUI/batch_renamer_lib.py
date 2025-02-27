@@ -1,5 +1,7 @@
 import os
 import logging
+import shutil
+import collections.abc as collections
 
 
 class BatchRenamer:
@@ -76,102 +78,96 @@ class BatchRenamer:
 
 
     def get_renamed_file_path(self, existing_name, string_to_find, string_to_replace, 
-                            prefix, suffix):
-        """
-        Returns the target file path given an existing file name and 
-        string operations
+                              prefix, suffix):
+        # Logging
+        self.logger.info("Getting renamed file path for: " + existing_name)
+        
+        # Making string_to_find a list if it isn't already
+        if not isinstance(string_to_find, collections.Collection) or isinstance(string_to_find, str):
+            string_to_find = [string_to_find]
 
-        Args:
-            existing_name: the existing file's name
-            string_to_find: a string to find and replace in the existing filename
-            string_to_replace: the string you'd like to replace it with
-            prefix: a string to insert at the beginning of the file path
-            suffix: a string to append to the end of the file path
-        """
+        if not string_to_find:
+            self.logger.warning("string_to_find is empty. No replacements made")
 
-        '''
-        REMINDERS
+        self.logger.info("number of strings to replace: " + str(len(string_to_find)))
 
-        This function should only take in strings and return a string.  
-        No file renaming/copying/moving should happen here
+        # Split the existing name into base name and extension
+        base_name, extension = os.path.splitext(existing_name)
 
-        Make sure to support string_to_find being an array of multiple strings!  
-            Hint: you may need to check its type...
-        '''
-        pass
+        # Replacing all strings in string_to_find with string_to_replace
+        for find_str in string_to_find:
+            self.logger.debug(f"Replacing '{find_str}' with '{string_to_replace}'")
+            base_name = base_name.replace(find_str, string_to_replace)
+
+        # Adding prefix and suffix
+        new_name = prefix + base_name + suffix + extension
+
+        return new_name
 
     def get_files_with_extension(self, folder_path, extension):
-        """
-        Returns a collection of files in a given folder with an extension that 
-        matches the provided extension
+        # Making sure the folder exists first
+        if not os.path.isdir(folder_path):
+            self.logger.error("Folder path does not exist")
+            return []
+        
+        self.logger.info("Getting files with extension: " + extension + " in folder: " + folder_path)
 
-        Args:
-            folder_path: The path of the folder whose files you'd like to search
-            extension: The extension of files you'd like to include in the return
-        """
+        # Getting all files in the folder
+        folder_files = next(os.walk(folder_path))[2]
 
-        '''
-        REMINDERS
+        # List to store all the files with the correct extension
+        matching_files = []
 
-        This function should only take in strings and return an array
-        No file renaming/copying/moving should happen here
+        # Iterating through all the files in the folder
+        for file in folder_files:
+            self.logger.debug("Working on file: " + file)
+            
+            # Remove the dot from the extension
+            file_extension = os.path.splitext(file)[1][1:]  
+            self.logger.debug("File extension string only: " + file_extension)
 
-        Make sure to catch and handle errors if the folder doesn't exist!
-        '''
-        pass
+            if file_extension == extension:
+                matching_files.append(file)
+                self.logger.info("Added a matching file: " + file)
+
+        if not matching_files:
+            self.logger.warning(f"No files found with extension: {extension}")
+
+        return matching_files
 
     def rename_file(self, existing_name, new_name, copy=False):
-        """
-        Renames a file if it exists
-        By default, should move the file from its original path to its new path--
-        removing the old file
-        If copy is set to True, duplicate the file to the new path
+        if not os.path.exists(existing_name):
+            self.logger.warning(f"File {existing_name} does not exist. Skipping.")
+            return
 
-        Args:
-            existing_name: full filepath a file that should already exist
-            new_name: full filepath for new name
-            copy_mode: copy instead of rename
-        """
-
-        '''
-        REMINDERS
-
-        Copy files using shutil.copy
-        make sure to import it at the top of the file
-        '''
-        pass
+        try:
+            if copy:
+                shutil.copy(existing_name, new_name)
+                self.logger.info(f"Copied file from {existing_name} to {new_name}")
+            else:
+                os.rename(existing_name, new_name)
+                self.logger.info(f"Renamed file from {existing_name} to {new_name}")
+        except Exception as e:
+            self.logger.error(f"Failed to rename/copy file to {new_name}: {e}")
 
     def rename_files_in_folder(self, folder_path, extension, string_to_find,
-                            string_to_replace, prefix, suffix, copy=False):
-        """
-        Renames all files in a folder with a given extension
-        This should operate only on files with the provided extension
-        Every instance of string_to_find in the filepath should be replaced
-        with string_to_replace
-        Prefix should be added to the front of the file name
-        Suffix should be added to the end of the file name
+                               string_to_replace, prefix, suffix, copy=False):
+        matching_files = self.get_files_with_extension(folder_path, extension)
+        for file in matching_files:
+            existing_name = os.path.join(folder_path, file)
+            new_name = self.get_renamed_file_path(file, string_to_find, 
+                                                  string_to_replace, prefix, suffix)
+            new_name = os.path.join(folder_path, new_name)
+            self.logger.debug(f"Renaming file from {existing_name} to {new_name}")
+            self.rename_file(existing_name, new_name, copy)
 
-        Args:
-            folder_path: the path to the folder the renamed files are in
-            extension: the extension of the files you'd like renamed
-            string_to_find: the string in the filename you'd like to replace
-            string_to_replace: the string you'd like to replace it with
-            prefix: a string to insert at the beginning of the file path
-            suffix: a string to append to the end of the file path
-            copy: whether to rename/move the file or duplicate/copy it
-        """
+def main():
+    renamer = BatchRenamer()
+    
+    # Logger
+    renamer.initialize_logger(True)
+    renamer.logger.info('Logger Initiated')
 
-        '''
-        REMINDERS
-        #
-        This function should:
-            - Find all files in a folder that use a certain extension
-                - Use get_files_with_extension for this
-            - *For each* file...
-                - Determine its new file path
-                    - Use get_renamed_file_path for this
-                - Rename or copy the file to the new path
-                    - Use rename_file for this
-            - Use the logger instance to document the process of the program
-        '''
-        pass
+
+if __name__ == '__main__':
+    main()
