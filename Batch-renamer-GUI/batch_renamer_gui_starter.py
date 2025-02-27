@@ -26,6 +26,26 @@ class BatchRenamerWindow(QMainWindow, Ui_MainWindow):
         # Show UI normal vs maximized
         self.showNormal()
 
+        # Set the "Rename" button checked by default
+        self.RenameRadioButton.setChecked(True)
+
+        # Add tooltips
+        self.add_tooltips()
+
+    def add_tooltips(self):
+        """
+        Add tooltips to UI elements
+        """
+        self.FilePathEdit.setToolTip("Enter the file path or browse to select a folder")
+        self.BrowseButton.setToolTip("Browse to select a folder")
+        self.FiletypesEdit.setToolTip("Enter the file types to include (e.g., .txt, .png)")
+        self.PrefixEdit.setToolTip("Enter the prefix to add to file names")
+        self.SufixEdit.setToolTip("Enter the suffix to add to file names")
+        self.StringsToFindEdit.setToolTip("Enter the strings to find, separated by commas")
+        self.StringsToReplaceEdit.setToolTip("Enter the string to replace the found strings")
+        self.CopyRadioButton.setToolTip("Check to copy files instead of moving them")
+        self.RunButton.setToolTip("Run the batch renamer")
+
     def get_filepath(self):
         """
         Open a file dialog for browsing to a folder
