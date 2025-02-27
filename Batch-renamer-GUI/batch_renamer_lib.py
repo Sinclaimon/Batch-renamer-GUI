@@ -3,7 +3,6 @@ import logging
 import shutil
 import collections.abc as collections
 
-
 class BatchRenamer:
     def __init__(self, 
                  filepath          = None,
@@ -23,7 +22,6 @@ class BatchRenamer:
 
         self.initialize_logger()
 
-
     def initialize_logger(self, print_to_screen = False):
         """
         Creates a logger
@@ -35,7 +33,7 @@ class BatchRenamer:
         ###############
         # Basic Setup #
         ###############
-        app_title = 'Test'
+        app_title = 'BatchRenamer'
         version_number = '1.0.0'
         # get the path the script was run from, storing with forward slashes
         source_path = os.path.dirname(os.path.realpath(__file__))
@@ -75,7 +73,6 @@ class BatchRenamer:
             console.setFormatter(formatter)
 
         self.logger.info('Logger Initiated')
-
 
     def get_renamed_file_path(self, existing_name, string_to_find, string_to_replace, 
                               prefix, suffix):
@@ -167,7 +164,6 @@ def main():
     # Logger
     renamer.initialize_logger(True)
     renamer.logger.info('Logger Initiated')
-
 
 if __name__ == '__main__':
     main()
